@@ -3,7 +3,7 @@ import ReactDOMServer from 'react-dom/server';
 
 
 
-export const Mobileditor = ({ editIcon, closeEditor }) => {
+export const Mobileeditor = ({ editIcon, closeEditor }) => {
     // console.log(editIcon)
 
     const [close, setClose] = useState(false);
@@ -104,11 +104,11 @@ export const Mobileditor = ({ editIcon, closeEditor }) => {
     return (
         <>
             <div onClick={(e) => e.stopPropagation()}
-                className='sticky  top-5 p-3 gap-5 w-full h-fit mx-auto bg-white rounded-xl md:border border-gray-300 '>
+                className='sticky top-5 p-3 gap-5 w-full h-fit mx-auto bg-white rounded-xl md:border border-gray-300 '>
 
 
                 {/* viewer */}
-                <div className='w-full relative'>
+                <div className='mb-1 w-full relative'>
 
                     <div className={`p-2 relative  w-full grid place-items-center grid-cols-1 rounded-xl`}
                         style={{ backgroundColor: background }}>
@@ -195,7 +195,7 @@ export const Mobileditor = ({ editIcon, closeEditor }) => {
 
                 {/* editor---------------------------------------------------------- */}
 
-                <div className='text-gray-800 w-full rounded-xl select-none border p-1'>
+                <div className=' text-gray-800 w-full rounded-xl select-none border p-1'>
 
                     <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg items-center'>
                         <p className='select-none'>Color</p>
