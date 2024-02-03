@@ -26,8 +26,8 @@ export const Navbar = () => {
                 </defs>
             </svg>
 
-            <p className='p-5 font-extrabold text-3xl text-slate-700'>
-                Style<span className='text-rose-500'>Elements</span>
+            <p className='p-5 font text-3xl text-slate-700'>
+                design<span className='text-rose-500'>Elements</span>
             </p>
         </div>
     )

@@ -137,7 +137,7 @@ export const Mobileditor = ({ editIcon, closeEditor }) => {
                     </div>
 
 
-                    {/* preview */}
+                    {/* preview -> currently not in smaller screens */}
                     <div className='hidden w-full select-none'>
                         <button className="w-full text-white text-lg font-semibold mt-1 p-[9px] px-4  flex justify-center items-center rounded-xl bg-black  hover:opacity-80 cursor-pointer duration-500 capitalize">
                             <svg className=''
@@ -165,7 +165,7 @@ export const Mobileditor = ({ editIcon, closeEditor }) => {
                             {getName(editIcon?.icon?.names[0])} Preview
                         </button>
 
-                        <div className='my-1 w-full flex justify-between relative p-3 rounded-lg border items-center'>
+                        <div className='my-1 w-full flex justify-between relative p-3 rounded-lg items-center'>
                             <div className='select-none'>Adjust</div>
                             <div className='flex justify-center gap-1'>
                                 <svg onClick={() => setyaxis(yaxis + 0.3)} className="w-6 h-6 p-1 bg-gray-100 rounded" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
@@ -195,9 +195,9 @@ export const Mobileditor = ({ editIcon, closeEditor }) => {
 
                 {/* editor---------------------------------------------------------- */}
 
-                <div className='text-gray-800 w-full rounded-xl select-none'>
+                <div className='text-gray-800 w-full rounded-xl select-none border p-1'>
 
-                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg border items-center'>
+                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg items-center'>
                         <p className='select-none'>Color</p>
                         <input
                             className=' bg-gray-200 p-[2px] rounded'
@@ -206,7 +206,7 @@ export const Mobileditor = ({ editIcon, closeEditor }) => {
                             name="" id="" value={color} />
                     </div>
 
-                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg border items-center'>
+                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg items-center'>
                         <p className='select-none'>Background</p>
                         <input
                             className='bg-gray-200 p-[2px] rounded'
@@ -215,7 +215,7 @@ export const Mobileditor = ({ editIcon, closeEditor }) => {
                             name="" id="" value={background} />
                     </div>
 
-                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg border items-center'>
+                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg items-center'>
                         <p className='select-none'>Fill</p>
                         <input
                             className='bg-gray-200 p-[2px] rounded'
@@ -224,7 +224,7 @@ export const Mobileditor = ({ editIcon, closeEditor }) => {
                         />
                     </div>
 
-                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg border items-center'>
+                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg items-center'>
                         <div className='select-none'>Size</div>
                         <div className='flex justify-center gap-1'>
                             <p className='font-light'>{size}</p>
@@ -237,7 +237,7 @@ export const Mobileditor = ({ editIcon, closeEditor }) => {
                         </div>
                     </div>
 
-                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg border items-center'>
+                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg items-center'>
                         <div className='select-none'>Stroke Width</div>
                         <div className='flex justify-center gap-1'>
                             <p className='font-light'>{Math.round(strokeWidth * 10) / 10}</p>
@@ -250,7 +250,7 @@ export const Mobileditor = ({ editIcon, closeEditor }) => {
                         </div>
                     </div>
 
-                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg border items-center'>
+                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg items-center'>
                         <div className='select-none'>Flip</div>
                         <div className='flex justify-center gap-1'>
                             <svg onClick={handleHorizontal} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.2} stroke="black" className="w-6 h-6 p-1 bg-gray-100 rounded">
@@ -262,7 +262,7 @@ export const Mobileditor = ({ editIcon, closeEditor }) => {
                         </div>
                     </div>
 
-                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg border items-center'>
+                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg items-center'>
                         <div className='select-none'>Linecap</div>
                         <div className='flex gap-1 text-xs justify-center items-center text-black'>
                             <p onClick={() => setLinecap("butt")} className="p-1 bg-gray-100 rounded">Butt</p>
@@ -271,7 +271,7 @@ export const Mobileditor = ({ editIcon, closeEditor }) => {
                         </div>
                     </div>
 
-                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg border items-center'>
+                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg items-center'>
                         <div className='select-none'>Linejoin</div>
                         <div className='flex gap-1 text-xs justify-center items-center text-black'>
                             <p onClick={() => setLinejoin("miter")} className="m-1 p-1 bg-gray-100 rounded">Miter</p>
@@ -280,7 +280,7 @@ export const Mobileditor = ({ editIcon, closeEditor }) => {
                         </div>
                     </div>
 
-                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg border items-center'>
+                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg items-center'>
                         <div className='select-none'>Line Opacity</div>
                         <div className='flex justify-center gap-1'>
                             <p className='font-light'>{Math.round(lineOpacity * 10) / 10}</p>
