@@ -25,7 +25,7 @@ export const Each = ({ icon }) => {
             <div className='m-4 text-center text-slate-600 hover:text-indigo-800 place-items-center p-5 cursor-pointer hover:-rotate-12 duration-500'
                 onClick={handleClick}>
 
-                <div className='flex items-center text-center  mx-auto '>
+                <div className='flex items-center text-center  mx-auto'>
                     <svg stroke='currentColor' strokeWidth={1.3} width="62" height="52" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g fill="none" fillRule="evenodd" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" transform="translate(6 3)">
                             {

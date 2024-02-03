@@ -30,7 +30,7 @@ export const Editor = ({ editIcon }) => {
     const [lineOpacity, setLineOpacity] = useState(1);
     const [strokeWidth, setStrokeWidth] = useState(1.3);
     const [iconColor, setIconColor] = useState('#efefef');                  // bg color of entire icon
-    const [fill, setFill] = useState(iconColor);                              // color inside svg
+    const [fill, setFill] = useState('none');                              // color inside svg
     const [jsxprompt, setJsxPrompt] = useState("COPY JSX");                 // copy jsx btn text 
     const [svgprompt, setSvgPrompt] = useState("COPY SVG");                 // copy svg btn text
 
@@ -45,7 +45,7 @@ export const Editor = ({ editIcon }) => {
 
     useEffect(() => {                                           // this useffect send svg code to preview
         const svgPreview =
-            <div style={{}}>
+            <div style={iconbg ? iconBgCode : {}}>
                 <svg className=''
                     width={size < 40 ? size : 40}
                     height={size < 40 ? size : 40}
@@ -82,6 +82,7 @@ export const Editor = ({ editIcon }) => {
         yaxis,
         iconbg,
         iconColor,
+        iconRadius,
     ])
 
 
@@ -136,10 +137,8 @@ export const Editor = ({ editIcon }) => {
     return (
         <>
             <div onClick={(e) => e.stopPropagation()}
-                className='border p-5 gap-5 w-full md:w-[600px]  flex mx-auto bg-white rounded-xl md:border border-gray-300 '>
-                
-                
-       
+                className='relative border p-5 gap-5 w-full md:w-[600px]  flex mx-auto bg-white rounded-xl md:border border-gray-300 '>
+
 
 
                 {/* viewer */}
@@ -235,7 +234,7 @@ export const Editor = ({ editIcon }) => {
                     <div className='w-full mb-1 flex justify-between relative p-2 rounded-lg items-center hover:bg-slate-200'>
                         <div className='select-none'>Size</div>
                         <div className='flex justify-center gap-1'>
-                            <p className='font-light'>{size}</p>
+                            <p className='text-violet-900'>{size}px</p>
                             <svg onClick={() => size > 20 && setSize(size - 5)} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="black" className="w-6 h-6 p-1 bg-gray-100 rounded">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14" />
                             </svg>
@@ -248,7 +247,7 @@ export const Editor = ({ editIcon }) => {
                     <div className='w-full mb-1 flex justify-between relative p-2 rounded-lg items-center hover:bg-slate-200'>
                         <div className='select-none'>Stroke Width</div>
                         <div className='flex justify-center gap-1'>
-                            <p className='font-light'>{Math.round(strokeWidth * 10) / 10}</p>
+                            <p className='text-violet-900'>{Math.round(strokeWidth * 10) / 10}px</p>
                             <svg onClick={() => strokeWidth > 0.2 && setStrokeWidth(strokeWidth - 0.1)} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="black" className="w-6 h-6 p-1 bg-gray-100 rounded">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14" />
                             </svg>

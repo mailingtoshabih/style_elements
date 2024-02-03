@@ -52,7 +52,7 @@ export const Adjust = ({ iconname, svgPreview, setxaxis, setyaxis, xaxis, yaxis,
                     <div className='mt-2 w-full flex justify-between relative p-1 rounded-lg items-center hover:bg-slate-200'>
                         <div className='select-none'>Corners</div>
                         <div className='flex justify-center gap-1'>
-                            <p className='font-light'>{iconRadius}</p>
+                            <p className=' text-violet-900'>{iconRadius}px</p>
                             <svg onClick={() => iconRadius > 3 && setIconRadius(iconRadius - 2)}
                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="black" className="w-6 h-6 p-1 bg-gray-100 rounded">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14" />

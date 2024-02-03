@@ -25,7 +25,7 @@ const Homepage = () => {
 
       <div>
         <div className='p-5 sticky top-0 backdrop-blur-xl'>
-          <input className=' px-5 text-xl w-full h-20 rounded-xl outline-none text-slate-600 border-none font-semibold bg-gradient-to-r from-blue-200 via-violet-200 to-green-200'
+          <input className='px-5 text-xl w-full h-14 md:h-20 rounded-xl outline-none text-slate-600 border-none font-semibold bg-gradient-to-r from-blue-200 via-violet-200 to-green-200'
             type="text"
             placeholder='Eg: Phone' />
         </div>

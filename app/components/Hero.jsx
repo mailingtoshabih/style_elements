@@ -2,18 +2,9 @@ import React from 'react'
 
 export const Hero = () => {
     return (
-        <div className='p-5 md:flex justify-between'>
+        <div className='p-5 md:flex flex-col md:flex-row justify-between items-center'>
 
-            <div className='w-full text-center md:text-start md:w-3/4'>
-                <p className=' text-pretty text-slate-800 text-6xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold'>
-                    <span className='text-teal-500'>Style </span><br />
-                    <span className='text-black-500'> Elements</span><br />
-                    <span className='text-purple-900'>Hassle-</span>
-                    <span className='text-purple-900'>Free</span>
-                </p>
-            </div>
-
-            <div className='w-full md:w-1/4 grid place-items-center p-9 m-2'>
+            <div className='w-full md:order-1 md:w-1/4 grid place-items-center p-9 md:mr-12'>
                 <svg className=' shadow-2xl shadow-violet-900 rounded-[55px]' width={200} viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="300" height="300" rx="80" fill="#070404" />
                     <rect x="125" y="21" width="50" height="260" rx="22" fill="#FF5252" />
@@ -35,8 +26,18 @@ export const Hero = () => {
                         </filter>
                     </defs>
                 </svg>
-
             </div>
+
+
+            <div className='w-full text-center md:text-start md:w-3/4'>
+                <p className=' text-pretty text-slate-800 text-6xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold'>
+                    <span className='text-teal-500'>Style </span><br />
+                    <span className='text-black-500'> Elements</span><br />
+                    <span className='text-purple-900'>Hassle-</span>
+                    <span className='text-purple-900'>Free</span>
+                </p>
+            </div>
+
 
         </div>
     )
