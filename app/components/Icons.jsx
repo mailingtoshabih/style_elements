@@ -1,25 +1,25 @@
 export const iconsdb = [
     {
         names: [
-            "alarm_clock"
+            "alarm_clock", "alarm", "clock", "snooze", "sleep", "morning"
         ],
         code: (<><path d="m7.5 2.56534572h2c3.3137085 0 6 2.6862915 6 6v1.93465428c0 3.3137085-2.6862915 6-6 6h-2c-3.3137085 0-6-2.6862915-6-6v-1.93465428c0-3.3137085 2.6862915-6 6-6zm-3.03187447-1.06810595c-.88435284-.63912003-2.08877116-.7093269-2.96812553.00276023-.90620024.73382648-1.25812628 1.95919459-.82225162 2.96879869m11.79055952-2.92496449c.889667-.68192972 2.1314103-.77286806 3.0316921-.0438342.9064946.73406486 1.2583549 1.95999074.8218266 2.96978251" /><path d="m8.5 5.5v4h-3.5" /><path d="m14 15 2 2" /><path d="m1 15 2 2" /></>)
     },
     {
         names: [
-            "align_horizontal"
+            "align_horizontal", "align", "horizontal", "adjust", "set", "fix"
         ],
         code: (<><path d="m4.5 4.5 3 3 3-3" /><path d="m7.5.5v7" /><path d="m4.5 14.5 3-3 3 3" /><path d="m7.5 11.5v7" /><path d="m.5 9.5h14" /></>)
     },
     {
         names: [
-            "align_vertical"
+            "align_vertical", "align", "horizontal", "adjust", "set", "fix"
         ],
         code: (<><path d="m14.5 4.5-3 3 3 3" /><path d="m18.5 7.5h-7" /><path d="m4.5 4.5 3 3-3 3" /><path d="m7.5 7.5h-7" /><path d="m9.5.5v14" /></>)
     },
     {
         names: [
-            "angle"
+            "angle degree 90 right angle"
         ],
         code: (<><path d="m5.5 11.5c0-2.76142375-2.23857625-5-5-5" /><path d="m.5.5v11h11" /></>)
     },

@@ -14,7 +14,12 @@ import { Mobileditor } from '../components/Mobileeditor'
 
 const Homepage = () => {
 
- 
+  const [search, setSearch] = useState('');
+  const filteredIcons = iconsdb.filter(icon => {
+    return icon.names.some(name =>
+      name.toLowerCase().includes(search.toLowerCase())
+    );
+  });
 
 
   return (
@@ -26,12 +31,13 @@ const Homepage = () => {
       <div>
         <div className='p-5 sticky top-0 backdrop-blur-xl'>
           <input className='px-5 text-xl w-full h-14 md:h-20 rounded-xl outline-none text-slate-600 border-none font-semibold bg-gradient-to-r from-blue-200 via-violet-200 to-green-200'
+            onChange={(e) => setSearch(e.target.value)}
             type="text"
             placeholder='Eg: Phone' />
         </div>
-        <div className='p-5 flex flex-wrap items-center justify-center'>
+        <div className='p-5 flex flex-wrap items-center justify-center min-h-screen'>
           {
-            iconsdb?.map((icon, index) => (
+            filteredIcons?.map((icon, index) => (
               <Each
                 key={index}
                 icon={icon}
@@ -42,7 +48,7 @@ const Homepage = () => {
       </div>
 
 
-     
+
 
 
     </div>

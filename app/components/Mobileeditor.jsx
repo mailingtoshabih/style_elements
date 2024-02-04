@@ -262,7 +262,7 @@ export const Mobileeditor = ({ editIcon, closeEditor }) => {
                         </div>
                     </div>
 
-                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg items-center'>
+                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg items-center select-none'>
                         <div className='select-none'>Linecap</div>
                         <div className='flex gap-1 text-xs justify-center items-center text-black'>
                             <p onClick={() => setLinecap("butt")} className="p-1 bg-gray-100 rounded">Butt</p>
@@ -271,7 +271,7 @@ export const Mobileeditor = ({ editIcon, closeEditor }) => {
                         </div>
                     </div>
 
-                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg items-center'>
+                    <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg items-center select-none'>
                         <div className='select-none'>Linejoin</div>
                         <div className='flex gap-1 text-xs justify-center items-center text-black'>
                             <p onClick={() => setLinejoin("miter")} className="m-1 p-1 bg-gray-100 rounded">Miter</p>
