@@ -39,6 +39,11 @@ export const Editor = ({ editIcon, closeEditor }) => {
 
 
     // console.log(iconColor)
+    const iconBgCode = {
+        backgroundColor: iconColor,
+        borderRadius: `${iconRadius}%`,
+        width: "fit-content"
+    }
 
     useEffect(() => {                                           // this useffect send svg code to preview
         const svgPreview =
@@ -83,11 +88,7 @@ export const Editor = ({ editIcon, closeEditor }) => {
     ])
 
 
-    const iconBgCode = {
-        backgroundColor: iconColor,
-        borderRadius: `${iconRadius}%`,
-        width: "fit-content"
-    }
+
 
 
     const copyJsx = (e) => {
