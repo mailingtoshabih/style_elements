@@ -315,6 +315,7 @@ export const Mobileeditor = ({ editIcon, closeEditor }) => {
                     </div>
 
 
+
                     {/* <Adjust iconname={getName(editIcon?.icon?.names[0])} */}
                         {/* // svgPreview={preview}
                         // xaxis={xaxis}

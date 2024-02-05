@@ -36,6 +36,7 @@ export const Editor = ({ editIcon, closeEditor }) => {
     const [background, setBackground] = useState('#ffffff');
 
 
+   
 
 
     // console.log(iconColor)
@@ -157,7 +158,8 @@ export const Editor = ({ editIcon, closeEditor }) => {
                                 <g
                                     fill={fill}
                                     fillRule="evenodd"
-                                    transform={`translate(${xaxis} ${yaxis})`}>         
+                                    transform={`translate(${xaxis} ${yaxis})`}>        
+                                    
                                     {editIcon?.icon?.code}
                                 </g>
                             </svg>
