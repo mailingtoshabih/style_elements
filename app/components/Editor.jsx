@@ -157,7 +157,7 @@ export const Editor = ({ editIcon, closeEditor }) => {
                                 <g
                                     fill={fill}
                                     fillRule="evenodd"
-                                    transform={`translate(${xaxis} ${yaxis})`}>         //adjust
+                                    transform={`translate(${xaxis} ${yaxis})`}>         
                                     {editIcon?.icon?.code}
                                 </g>
                             </svg>
