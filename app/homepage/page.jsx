@@ -35,7 +35,7 @@ const Homepage = () => {
             type="text"
             placeholder='Eg: Phone' />
         </div>
-        <div className='p-5 flex flex-wrap items-center justify-center min-h-screen'>
+        <div className='p-5 flex flex-wrap min-h-[500px]'>
           {
             filteredIcons?.map((icon, index) => (
               <Each

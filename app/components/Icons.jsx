@@ -1,19 +1,19 @@
 export const iconsdb = [
     {
         names: [
-            "alarm_clock", "alarm", "clock", "snooze", "sleep", "morning"
+            "alarm clock", "alarm", "clock", "snooze", "sleep", "morning"
         ],
         code: (<><path d="m7.5 2.56534572h2c3.3137085 0 6 2.6862915 6 6v1.93465428c0 3.3137085-2.6862915 6-6 6h-2c-3.3137085 0-6-2.6862915-6-6v-1.93465428c0-3.3137085 2.6862915-6 6-6zm-3.03187447-1.06810595c-.88435284-.63912003-2.08877116-.7093269-2.96812553.00276023-.90620024.73382648-1.25812628 1.95919459-.82225162 2.96879869m11.79055952-2.92496449c.889667-.68192972 2.1314103-.77286806 3.0316921-.0438342.9064946.73406486 1.2583549 1.95999074.8218266 2.96978251" /><path d="m8.5 5.5v4h-3.5" /><path d="m14 15 2 2" /><path d="m1 15 2 2" /></>)
     },
     {
         names: [
-            "align_horizontal", "align", "horizontal", "adjust", "set", "fix"
+            "align horizontal", "align", "horizontal", "adjust", "set", "fix"
         ],
         code: (<><path d="m4.5 4.5 3 3 3-3" /><path d="m7.5.5v7" /><path d="m4.5 14.5 3-3 3 3" /><path d="m7.5 11.5v7" /><path d="m.5 9.5h14" /></>)
     },
     {
         names: [
-            "align_vertical", "align", "horizontal", "adjust", "set", "fix"
+            "align vertical", "align", "horizontal", "adjust", "set", "fix"
         ],
         code: (<><path d="m14.5 4.5-3 3 3 3" /><path d="m18.5 7.5h-7" /><path d="m4.5 4.5 3 3-3 3" /><path d="m7.5 7.5h-7" /><path d="m9.5.5v14" /></>)
     },
@@ -25,73 +25,73 @@ export const iconsdb = [
     },
     {
         names: [
-            "archive"
+            "archive save add pocket"
         ],
         code: (<><path d="m1.5 4.5h14v7.9976807c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2zm0-3.9777832h14c.5522847 0 1 .44771525 1 1v1.9777832c0 .55228475-.4477153 1-1 1h-14c-.55228475 0-1-.44771525-1-1v-1.9777832c0-.55228475.44771525-1 1-1z" /><path d="m6.5 7.5h4" /></>)
     },
     {
         names: [
-            "arrow_bottom_left"
+            "arrow bottom left bow side"
         ],
         code: (<><path d="m.5 1.5v7h7" /><path d="m8.5.5-8 8" /></>)
     },
     {
         names: [
-            "arrow_bottom_right"
+            "arrow bottom right"
         ],
         code: (<><path d="m8.5 1.5v7h-7" /><path d="m.5.5 8 8" /></>)
     },
     {
         names: [
-            "arrow_down"
+            "arrow down"
         ],
         code: (<><path d="m.5 9.499 4 4.001 4-4.001" /><path d="m4.5.5v13" /></>)
     },
     {
         names: [
-            "arrow_down_circle"
+            "arrow down circle round outline"
         ],
         code: (<><circle cx="8.5" cy="8.5" r="8" /><path d="m5.5 9.5 3 3 3-3" /><path d="m8.5 12.5v-8" /></>)
     },
     {
         names: [
-            "arrow_left"
+            "arrow left bow"
         ],
         code: (<><path d="m4.499.497-3.999 4.002 4 4.001" /><path d="m13.5 4.5h-13" /></>)
     },
     {
         names: [
-            "arrow_right"
+            "arrow right"
         ],
         code: (<><path d="m9.5.497 4 4.002-4 4.001" /><path d="m.5 4.5h13" /></>)
     },
     {
         names: [
-            "arrow_top_left"
+            "arrow top left"
         ],
         code: (<><path d="m.5 7.5v-7h7" /><path d="m.5.5 8 8" /></>)
     },
     {
         names: [
-            "arrow_top_right"
+            "arrow top right"
         ],
         code: (<><path d="m8.5 7.5v-7h-7" /><path d="m8.5.5-8 8" /></>)
     },
     {
         names: [
-            "arrow_up"
+            "arrow up"
         ],
         code: (<><path d="m8.5 4.5-4-4-4.029 4" /><path d="m4.5.5v13" /></>)
     },
     {
         names: [
-            "arrow_up_circle"
+            "arrow up circle"
         ],
         code: (<><circle cx="8.5" cy="8.5" r="8" /><path d="m11.5 7.5-3-3-3 3" /><path d="m8.5 4.5v8" /></>)
     },
     {
         names: [
-            "audio_wave"
+            "audio wave"
         ],
         code: (<><path d="m6.5 8.5v4" /><path d="m8.5 6.5v9" /><path d="m10.5 9.5v2" /><path d="m12.5 7.5v6.814" /><path d="m14.5 4.5v12" /></>)
     },
@@ -115,37 +115,37 @@ export const iconsdb = [
     },
     {
         names: [
-            "battery_75"
+            "battery 75"
         ],
         code: (<><path d="m2.5.5h10c1.1045695 0 2 .8954305 2 2v3c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2v-3c0-1.1045695.8954305-2 2-2z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m3 2h7c.5522847 0 1 .44771525 1 1v2.04629283c0 .55228475-.4477153 1-1 1h-7c-.55228475 0-1-.44771525-1-1v-2.04629283c0-.55228475.44771525-1 1-1z" fill="currentColor" /><path d="m16.5 2.5v3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "battery_charging"
+            "battery charging"
         ],
         code: (<><path d="m10.5 2.5 2-.00147513c1.104569-.00182524 2.0005267.89307776 2.0011772 1.99764707l-.0011772 3.00117786c0 1.1045695-.8954305 2-2 2l-2 .0026502m-5 0h-3.01261486c-1.1045695 0-2-.8954305-2-2v-3c0-1.1045695.8954305-2 2-2h2.01261486" /><path d="m8.5 5.5h2.5l-3.6 6.5.1-5.5h-3l4-6z" /><path d="m16.5 4.5v3" /></>)
     },
     {
         names: [
-            "battery_empty"
+            "battery empty"
         ],
         code: (<><path d="m2.5.5h10c1.1045695 0 2 .8954305 2 2v3c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2v-3c0-1.1045695.8954305-2 2-2z" /><path d="m16.5 2.5v3" /></>)
     },
     {
         names: [
-            "battery_full"
+            "battery full"
         ],
         code: (<><path d="m2.5.5h10c1.1045695 0 2 .8954305 2 2v3c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2v-3c0-1.1045695.8954305-2 2-2z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m3 2h9c.5522847 0 1 .44771525 1 1v2c0 .55228475-.4477153 1-1 1h-9c-.55228475 0-1-.44771525-1-1v-2c0-.55228475.44771525-1 1-1z" fill="currentColor" /><path d="m16.5 2.5v3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "battery_half"
+            "battery half"
         ],
         code: (<><path d="m2.5.5h10c1.1045695 0 2 .8954305 2 2v3c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2v-3c0-1.1045695.8954305-2 2-2z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m3 2h4c.55228475 0 1 .44771525 1 1v2c0 .55228475-.44771525 1-1 1h-4c-.55228475 0-1-.44771525-1-1v-2c0-.55228475.44771525-1 1-1z" fill="currentColor" /><path d="m16.5 2.5v3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "battery_low"
+            "battery low"
         ],
         code: (<><path d="m2.5.49734981h10c1.1045695 0 2 .8954305 2 2v3.00265019c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2v-3.00265019c0-1.1045695.8954305-2 2-2z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m3 2c.55228475 0 1 .44771525 1 1v2c0 .55228475-.44771525 1-1 1s-1-.44771525-1-1v-2c0-.55228475.44771525-1 1-1z" fill="currentColor" /><path d="m16.5 2.5v1.5 1.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
@@ -157,31 +157,31 @@ export const iconsdb = [
     },
     {
         names: [
-            "bell_disabled"
+            "bell disabled ring mute silent volume sound"
         ],
         code: (<><path d="m2.5 3.5h10.0845241c.9116644 0 1.6507144.73905002 1.6507144 1.65071443 0 .299182-.0813106.59273912-.2352385.84928557-.9815222 1.63587038-1.5 3.50773964-1.5 5.4154759v1.0845241c0 .2743851.0526244.7411502 0 1m-1.3634603 2.0081694c-.7039698.6174972-1.62653961.9918306-2.6365397.9918306h-2c-2.209139 0-4-1.790861-4-4v-1.0845241c0-1.90773626-.51847777-3.77960552-1.5-5.4154759-.23818692-.39697819-.29005196-.85383979-.18103675-1.26881839" /><path d="m.5 1.5 14 14" /><path d="m5 2c.66666667-1 1.5-1.5 2.5-1.5s1.83333333.5 2.5 1.5" /></>)
     },
     {
         names: [
-            "bell_ringing"
+            "bell ringing ring mute silent voice volume sound"
         ],
         code: (<><path d="m2.41547595 3.5h10.16904815c.9116644 0 1.6507144.73905002 1.6507144 1.65071443 0 .299182-.0813106.59273912-.2352385.84928557-.9815222 1.63587038-1.5 3.50773964-1.5 5.4154759v1.0845241c0 2.209139-1.790861 4-4 4h-2c-2.209139 0-4-1.790861-4-4v-1.0845241c0-1.90773626-.51847777-3.77960552-1.5-5.4154759-.46904747-.78174578-.2155554-1.79571405.56619038-2.26476152.25654645-.15392786.55010357-.23523848.84928557-.23523848zm-1.91547595 11c.2671216.9337883.60045494 1.6004549 1 2s1.06621173.7328784 2 1m10.9115854-3c-.2081785.9337883-.5120403 1.6004549-.9115854 2s-1.0956833.7328784-2.0884146 1m-6.4115854-15.5c.66666667-1 1.5-1.5 2.5-1.5s1.83333333.5 2.5 1.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "bell_snooze"
+            "bell snooze ring mute voice silent volume sound"
         ],
         code: (<><path d="m12.4997505 6.58452405c0 1.90773631.5184778 3.77960555 1.5 5.41547595.4690475.7817458.2155554 1.795714-.5661903 2.2647615-.2565465.1539279-.5501036.2352385-.8492856.2352385h-10.16904812c-.91166441 0-1.65071443-.73905-1.65071443-1.6507144 0-.299182.08131061-.5927392.23523848-.8492856.98152223-1.6358704 1.5-3.50773964 1.5-5.41547595v-1.08452405c0-2.209139 1.790861-4 4-4h2c.80352907 0 1.55172027.23692942 2.17852347.64473803" /><path d="m7.5 4.5h2l-2 3h2" /><path d="m11.5.5h3l-3 4h3" /><path d="m5 17.5c.66666667-1 1.5-1.5 2.5-1.5s1.83333333.5 2.5 1.5" /></>)
     },
     {
         names: [
-            "bluetooth"
+            "bluetooth connect wireless earpodes earphone"
         ],
         code: (<><path d="m0 3.75 7 7.5-3.5 3.75v-15l3.5 3.75-7 7.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "book"
+            "book read copy paper page hard diary notebook write"
         ],
         code: (<><path d="m16.5 1.59090909c-1.3333333-.72727273-2.6666667-1.09090909-4-1.09090909s-2.66666667.36363636-4 1.09090909v9.90909091c1.33333333-.6666667 2.6666667-1 4-1s2.6666667.3333333 4 1zm-8 0c-1.33333333-.72727273-2.66666667-1.09090909-4-1.09090909s-2.66666667.36363636-4 1.09090909v9.90909091c1.33333333-.6666667 2.66666667-1 4-1s2.66666667.3333333 4 1z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
@@ -193,19 +193,19 @@ export const iconsdb = [
     },
     {
         names: [
-            "bookmark_book"
+            "bookmark book read copy paper page hard diary notebook write"
         ],
         code: (<><path d="m2.5.5h8c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2h-8c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2z" /><path d="m3.5.5h4v5.012l-2-2.012-2 2.012z" /></>)
     },
     {
         names: [
-            "book_closed"
+            "book closed read copy paper page hard diary notebook write"
         ],
         code: (<><path d="m2.5.5h9c.5522847 0 1 .44771525 1 1v12c0 .5522847-.4477153 1-1 1h-9c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2z" /><path d="m2.5 10.5h10v3c0 .5522847-.4477153 1-1 1h-9c-1.1045695 0-2-.8954305-2-2s.8954305-2 2-2z" /></>)
     },
     {
         names: [
-            "book_text"
+            "book text read copy paper page hard diary notebook write"
         ],
         code: (<><path d="m16.5 1.59090909c-1.3333333-.72727273-2.6666667-1.09090909-4-1.09090909s-2.66666667.36363636-4 1.09090909v9.90909091c1.33333333-.6666667 2.6666667-1 4-1s2.6666667.3333333 4 1z" /><path d="m14.5559265 2.78819322c-.6853088-.19212881-1.3706177-.28819322-2.0559265-.28819322s-1.3706177.09606441-2.0559265.28819322m4.111853 2c-.6853088-.19212881-1.3706177-.28819322-2.0559265-.28819322s-1.3706177.09606441-2.0559265.28819322m4.111853 2c-.6853088-.19212881-1.3706177-.28819322-2.0559265-.28819322s-1.3706177.09606441-2.0559265.28819322m4.111853 2c-.6853088-.19212881-1.3706177-.28819322-2.0559265-.28819322s-1.3706177.09606441-2.0559265.28819322m-3.88814699-6c-.68530883-.19212881-1.37061767-.28819322-2.05592651-.28819322s-1.37061768.09606441-2.05592651.28819322m4.11185302 2c-.68530883-.19212881-1.37061767-.28819322-2.05592651-.28819322s-1.37061768.09606441-2.05592651.28819322m4.11185302 2c-.68530883-.19212881-1.37061767-.28819322-2.05592651-.28819322s-1.37061768.09606441-2.05592651.28819322m4.11185302 2c-.68530883-.19212881-1.37061767-.28819322-2.05592651-.28819322s-1.37061768.09606441-2.05592651.28819322" /><path d="m8.5 1.59090909c-1.33333333-.72727273-2.66666667-1.09090909-4-1.09090909s-2.66666667.36363636-4 1.09090909v9.90909091c1.33333333-.6666667 2.66666667-1 4-1s2.66666667.3333333 4 1z" /></>)
     },
@@ -218,67 +218,67 @@ export const iconsdb = [
     },
     {
         names: [
-            "boxes"
+            "boxes container carton crate case package casket trunk bin chest caddy"
         ],
         code: (<><path d="M10.5 15.429l3.548 1.837a1 1 0 00.907.006l2.992-1.496a1 1 0 00.553-.894v-2.764a1 1 0 00-.553-.894L14.5 9.5l-3.46 1.792a1 1 0 00-.54.888v3.249z" /><path d="M3.04 15.708l3.008 1.558a1 1 0 00.907.006L10.5 15.5v-3.382a1 1 0 00-.553-.894L6.5 9.5l-3.46 1.792a1 1 0 00-.54.888v2.64a1 1 0 00.54.888zM6.5 9.429l3.548 1.837a1 1 0 00.907.006L14.5 9.5V6.118a1 1 0 00-.553-.894l-2.992-1.496a1 1 0 00-.907.006L7.04 5.292a1 1 0 00-.54.888v3.249z" /><path d="M6.846 5.673l3.207 1.603a1 1 0 00.894 0L14.12 5.69h0M8.799 4.649L12.5 6.5M12.799 10.649L16.5 12.5M4.799 10.649L8.5 12.5M10.846 11.673l3.207 1.603a1 1 0 00.894 0l3.172-1.586h0M2.846 11.673l3.207 1.603a1 1 0 00.894 0l3.172-1.586h0M10.5 7.5v4M14.5 13.5V17M6.5 13.5V17" /></>)
     },
     {
         names: [
-            "box_add"
+            "box add container carton crate case package casket trunk bin chest caddy"
         ],
         code: (<><path d="M11.492 4.067l5 2.857A2 2 0 0117.5 8.661v4.678a2 2 0 01-1.008 1.737l-5 2.857a2 2 0 01-1.984 0l-5-2.857A2 2 0 013.5 13.339V8.661a2 2 0 011.008-1.737l5-2.857a2 2 0 011.984 0zM17.5 1.5v4M19.5 3.5h-4M14 9.5l-7-4" /><path d="M4 8l5.552 2.99a2 2 0 001.896 0L17 8M10.5 11.5V18" /></>)
     },
     {
         names: [
-            "box_download"
+            "box download container carton crate case package casket trunk bin chest caddy"
         ],
         code: (<><path d="m7.5 10.5v-8c0-1.1045695-.8954305-2-2-2h-3c-1.1045695 0-2 .8954305-2 2v10c0 1.1045695.8954305 2 2 2h10c1.1045695 0 2-.8954305 2-2v-10c0-1.1045695-.8954305-2-2-2h-3" /><path d="m4.5 7.5 3 3 3-3" /></>)
     },
     {
         names: [
-            "box_open"
+            "box open container carton crate case package casket trunk bin chest caddy"
         ],
         code: (<><path d="m3.5 6.5 7-4 5.9922779 3.42415879c.62315.35608571 1.0077221 1.01877259 1.0077221 1.73648628v4.67870983c0 .7177137-.3845721 1.3804006-1.0077221 1.7364863l-5 2.8571429c-.6148654.3513516-1.3696904.3513516-1.98455578 0l-5-2.8571429c-.62314999-.3560857-1.00772212-1.0187726-1.00772212-1.7364863 0-1.2454967 0-2.1796192 0-2.8023676" /><path d="m9.55180035 9.98943096c.59195265.31874374 1.30444665.31874374 1.89639925 0l5.5518004-2.98943096" /><path d="m10.5 10.5v6.5" /><path d="m3.5 6.5 7 4-3 1-7-4z" /><path d="m10.5 2.5 7 4 2-2-7-4z" /></>)
     },
     {
         names: [
-            "box_remove"
+            "box remove container carton crate case package casket trunk bin chest caddy"
         ],
         code: (<><path d="M11.492 4.067l5 2.857A2 2 0 0117.5 8.661v4.678a2 2 0 01-1.008 1.737l-5 2.857a2 2 0 01-1.984 0l-5-2.857A2 2 0 013.5 13.339V8.661a2 2 0 011.008-1.737l5-2.857a2 2 0 011.984 0zM19.5 3.5h-4M14 9.5l-7-4" /><path d="M4 8l5.552 2.99a2 2 0 001.896 0L17 8M10.5 11.5V18" /></>)
     },
     {
         names: [
-            "branch"
+            "branch separate different specific"
         ],
         code: (<><path d="m12.835 5.5v-5h-5" /><path d="m12.835.5-6 6v8" /><path d="m4.835 4.5-4-4" /></>)
     },
     {
         names: [
-            "briefcase"
+            "briefcase container carton crate case package casket trunk bin chest caddy briefcase"
         ],
         code: (<><path d="m2.49999919 3.5h10.00000001c1.1045695 0 2 .8954305 2 2v5c0 1.1045695-.8954305 2-2 2h-10.00000001c-1.1045695 0-2-.8954305-2-2v-5c0-1.1045695.8954305-2 2-2zm4.00000081-3h2c1.1045695 0 2 .8954305 2 2v1h-6v-1c0-1.1045695.8954305-2 2-2z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "browser"
+            "browser web browser internet  search engine explorer webpage"
         ],
         code: (<><path d="m16.5 11.5v-9c0-1.1045695-.8954305-2-2-2h-12c-1.1045695 0-2 .8954305-2 2v9c0 1.1045695.8954305 2 2 2h12c1.1045695 0 2-.8954305 2-2z" /><path d="m14.5 10.5v-3c0-.55228475-.4477153-1-1-1h-10c-.55228475 0-1 .44771525-1 1v3c0 .5522847.44771525 1 1 1h10c.5522847 0 1-.4477153 1-1z" /><path d="m6.5 3.498h8" /><path d="m2.5 3.5h2" /></>)
     },
     {
         names: [
-            "browser_alt"
+            "browser alt web browser internet browser search engine explorer navigator"
         ],
         code: (<><path d="m16.5 11.5v-9c0-1.1045695-.8954305-2-2-2h-12c-1.1045695 0-2 .8954305-2 2v9c0 1.1045695.8954305 2 2 2h12c1.1045695 0 2-.8954305 2-2z" /><path d="m6.5 10.5v-7c0-.55228475-.44771525-1-1-1h-2c-.55228475 0-1 .44771525-1 1v7c0 .5522847.44771525 1 1 1h2c.55228475 0 1-.4477153 1-1zm8-6.00000052v-1c0-.55228475-.4477153-1-1-1h-4c-.55228475 0-1 .44771525-1 1v1c0 .55228475.44771525 1 1 1h4c.5522847 0 1-.44771525 1-1zm0 6.00000052v-2c0-.55228475-.4477153-1-1-1h-4c-.55228475 0-1 .44771525-1 1v2c0 .5522847.44771525 1 1 1h4c.5522847 0 1-.4477153 1-1z" /></>)
     },
     {
         names: [
-            "button_add"
+            "button add switch knob key control lever pushbutton toggle selector dial push "
         ],
         code: (<><path d="m12.5 10.5v-8c0-1.1045695-.8954305-2-2-2h-8c-1.1045695 0-2 .8954305-2 2v8c0 1.1045695.8954305 2 2 2h8c1.1045695 0 2-.8954305 2-2z" /><path d="m6.5 3.5v6.056" /><path d="m6.5 3.5v6" /></>)
     },
     {
         names: [
-            "button_minus"
+            "button minus switch knob key control lever pushbutton toggle selector dial push "
         ],
         code: (<><path d="m12.5 10.5v-8c0-1.1045695-.8954305-2-2-2h-8c-1.1045695 0-2 .8954305-2 2v8c0 1.1045695.8954305 2 2 2h8c1.1045695 0 2-.8954305 2-2z" /><path d="m6.5 3.5v6" /></>)
     },
@@ -290,109 +290,109 @@ export const iconsdb = [
     },
     {
         names: [
-            "calendar"
+            "calendar schedule planner timetable agenda datebook diary time frame"
         ],
         code: (<><path d="m2.5.5h12c1.1045695 0 2 .8954305 2 2v12c0 1.1045695-.8954305 2-2 2h-12c-1.1045695 0-2-.8954305-2-2v-12c0-1.1045695.8954305-2 2-2z" /><path d="m.5 4.5h16" /></>)
     },
     {
         names: [
-            "calendar_add"
+            "calendar add schedule planner timetable agenda datebook diary time frame"
         ],
         code: (<><path d="m2.5.5h12c1.1045695 0 2 .8954305 2 2v12c0 1.1045695-.8954305 2-2 2h-12c-1.1045695 0-2-.8954305-2-2v-12c0-1.1045695.8954305-2 2-2z" /><path d="m.5 4.5h16" /><path d="m8.5 7.5v6.056" /><path d="m8.5 7.5v6" /></>)
     },
     {
         names: [
-            "calendar_date"
+            "calendar date schedule planner timetable agenda datebook diary time frame"
         ],
         code: (<><path d="m2.5.5h12c1.1045695 0 2 .8954305 2 2v11.9903615c0 1.1045695-.8954305 2-2 2h-12c-1.1045695 0-2-.8954305-2-2v-11.9903615c0-1.1045695.8954305-2 2-2z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m.659 4.5h15.841" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m4.81640625 11.1552734v-1.0791015h.87890625c.66894531 0 1.12304688-.39550784 1.12304688-.97167971 0-.52734375-.41503907-.92773438-1.10351563-.92773438-.71289063 0-1.15234375.36621094-1.20117187.99609375h-1.36230469c.04882812-1.29882812 1.04980469-2.17285156 2.63671875-2.17285156 1.5625 0 2.43164062.86425781 2.42675781 1.89453125-.00488281.85449219-.54199219 1.41601565-1.29882813 1.60156255v.0927734c.98144532.1416016 1.57714844.7666016 1.57714844 1.7089844 0 1.2353515-1.16210937 2.109375-2.75390625 2.109375-1.59179687 0-2.67578125-.8691407-2.73925781-2.2021485h1.41113281c.04394531.5957031.55175781.9765625 1.30859375.9765625.74707032 0 1.26953125-.4052734 1.26953125-1.015625 0-.625-.48828125-1.0107422-1.27929687-1.0107422z" /><path d="m11.516 14.227v-5.611h-.087l-1.729 1.192v-1.372l1.821-1.255h1.47v7.046z" /></>)
     },
     {
         names: [
-            "calendar_day"
+            "calendar day schedule planner timetable agenda datebook diary time frame"
         ],
         code: (<><path d="m2.5.5h12.0269119c1.1045695 0 2 .8954305 2 2v11.9907459c0 1.0543618-.8158778 1.9181651-1.8507376 1.9945143l-.1588615.0054627-12.02691193-.0577246c-1.10080997-.0052835-1.99040087-.8991544-1.99040087-1.999977v-11.9330213c0-1.1045695.8954305-2 2-2z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m.5 4.5h16.027" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><circle cx="4.5" cy="8.5" fill="currentColor" r="1" /></>)
     },
     {
         names: [
-            "calendar_days"
+            "calendar days schedule planner timetable agenda datebook diary time frame"
         ],
         code: (<> <path d="m2.5.5h12c1.1045695 0 2 .8954305 2 2v12c0 1.1045695-.8954305 2-2 2h-12c-1.1045695 0-2-.8954305-2-2v-12c0-1.1045695.8954305-2 2-2z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m.5 4.5h16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><circle cx="8.5" cy="8.5" r="1" /><circle cx="4.5" cy="8.5" r="1" /><circle cx="4.5" cy="12.5" r="1" /></>)
     },
     {
         names: [
-            "calendar_last_day"
+            "calendar last day schedule planner timetable agenda datebook diary time frame"
         ],
         code: (<> <path d="m2.5.5h12.0269119c1.1045695 0 2 .8954305 2 2v11.9907459c0 1.0543618-.8158778 1.9181651-1.8507376 1.9945143l-.1588615.0054627-12.02691193-.0577246c-1.10080997-.0052835-1.99040087-.8991544-1.99040087-1.999977v-11.9330213c0-1.1045695.8954305-2 2-2z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m.5 4.5h16.027" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><circle cx="12.5" cy="12.5" fill="currentColor" r="1" /></>)
     },
     {
         names: [
-            "calendar_month"
+            "calendar month schedule planner timetable agenda datebook diary time frame"
         ],
         code: (<> <path d="m2.5.5h12c1.1045695 0 2 .8954305 2 2v12c0 1.1045695-.8954305 2-2 2h-12c-1.1045695 0-2-.8954305-2-2v-12c0-1.1045695.8954305-2 2-2z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m.5 4.5h16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><circle cx="8.5" cy="8.5" r="1" /><circle cx="4.5" cy="8.5" r="1" /><circle cx="12.5" cy="8.5" r="1" /><circle cx="8.5" cy="12.5" r="1" /><circle cx="4.5" cy="12.5" r="1" /><circle cx="12.5" cy="12.5" r="1" /></>)
     },
     {
         names: [
-            "calendar_move"
+            "calendar move schedule planner timetable agenda datebook diary time frame"
         ],
         code: (<><path d="m1.5 8.46153846v-6.02882304c0-1.1045695.8954305-2 2-2h.00961527l12.00000003.05771542c1.1008036.00529233 1.9903847.89916054 1.9903847 1.99997689v11.99995377c0 1.1045695-.8954305 2-2 2-.0032051 0-.0064102 0-.0096153 0l-11.99999997-.0577154c-1.10080364-.0052923-1.99038473-.8991606-1.99038473-1.9999769v-1.9326692" /><path d="m1.5 4.5h16" /><path d="m9.621 8.379v4.242h-4.242" /><path d="m5.5 5.5v10" /></>)
     },
     {
         names: [
-            "calendar_remove"
+            "calendar remove schedule planner timetable agenda datebook diary time frame"
         ],
         code: (<><path d="m2.5.5h12c1.1045695 0 2 .8954305 2 2v12c0 1.1045695-.8954305 2-2 2h-12c-1.1045695 0-2-.8954305-2-2v-12c0-1.1045695.8954305-2 2-2z" /><path d="m.5 4.5h16" /><path d="m8.5 7.5v6" /></>)
     },
     {
         names: [
-            "calendar_split"
+            "calendar split schedule planner timetable agenda datebook diary time frame"
         ],
         code: (<><path d="m2.5.5h12c1.1045695 0 2 .8954305 2 2v12c0 1.1045695-.8954305 2-2 2h-12c-1.1045695 0-2-.8954305-2-2v-12c0-1.1045695.8954305-2 2-2z" /><path d="m.5 4.5h16" /><path d="m8.5 4.5v12" /></>)
     },
     {
         names: [
-            "calendar_week"
+            "calendar week schedule planner timetable agenda datebook diary time frame"
         ],
         code: (<><path d="m2.5.5h12c1.1045695 0 2 .8954305 2 2v12c0 1.1045695-.8954305 2-2 2h-12c-1.1045695 0-2-.8954305-2-2v-12c0-1.1045695.8954305-2 2-2z" /><path d="m.5 4.5h16" /><path d="m3.5 7.5v6" /><path d="m5.5 7.5v6" /><path d="m7.5 7.5v6" /><path d="m9.5 7.5v6" /><path d="m11.5 7.5v6" /><path d="m13.5 7.5v6" /></>)
     },
     {
         names: [
-            "camera"
+            " photographic device camcorder recorder imaging device lens apparatus capture device camera"
         ],
         code: (<> <path d="m.5 10.5v-6c0-1.1045695.8954305-2 2-2h12c1.1045695 0 2 .8954305 2 2v6c0 1.1045695-.8954305 2-2 2h-12c-1.1045695 0-2-.8954305-2-2z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m15 5c0-.55228475-.4477153-1-1-1s-1 .44771525-1 1 .4477153 1 1 1 1-.44771525 1-1z" fill="currentColor" /><path d="m11.5 7.5c0-1.65685425-1.3431458-3-3-3-1.65685425 0-3 1.34314575-3 3s1.34314575 3 3 3c1.6568542 0 3-1.34314575 3-3zm-4-7h2c.5522847 0 1 .44771525 1 1v1h-4v-1c0-.55228475.44771525-1 1-1z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "camera_alt"
+            " photographic device camcorder recorder imaging device lens apparatus capture device camera alt"
         ],
         code: (<><path d="m.5 10.5v-6c0-1.1045695.8954305-2 2-2h2l2.07861328-2h3.92016602l1.9194336 2h2.0817871c1.1045695 0 2 .8954305 2 2v6c0 1.1045695-.8954305 2-2 2h-12c-1.1045695 0-2-.8954305-2-2z" /><path d="m11.5 7.5c0-1.65685425-1.3431458-3-3-3-1.65685425 0-3 1.34314575-3 3s1.34314575 3 3 3c1.6568542 0 3-1.34314575 3-3z" /></>)
     },
     {
         names: [
-            "camera_noflash"
+            " photographic device camcorder recorder imaging device lens apparatus capture device camera noflash"
         ],
         code: (<> <path d="m6.5 2.5h8c1.1045695 0 2 .8954305 2 2v6c0 .5586494-.2290469 1.063802-.5983542 1.4266713m-2.4016458.5733287h-11c-1.1045695 0-2-.8954305-2-2v-6c0-1.1045695.8954305-2 2-2h1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m1.5.5 14 14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m15 5c0-.55228475-.4477153-1-1-1s-1 .44771525-1 1 .4477153 1 1 1 1-.44771525 1-1z" fill="currentColor" /><path d="m6.21451797 5.55656756c-.44560472.52352158-.71451797 1.20207298-.71451797 1.94343244 0 1.65685425 1.34314575 3 3 3 .76116342 0 1.45611838-.2834721 1.9850534-.75060483m1.0149466-2.24939517c0-1.65685425-1.3431458-3-3-3m-1-4h2c.5522847 0 1 .44771525 1 1v1h-4v-1c0-.55228475.44771525-1 1-1z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "camera_noflash_alt"
+            " photographic selfie device camcorder recorder imaging device lens apparatus capture device camera noflash alt"
         ],
         code: (<><path d="m5.53930664 1.7 1.03930664-1h3.92016602l1.9194336 2h2.0817871c1.1045695 0 2 .8954305 2 2v6c0 .5021261-.1850424.9610332-.4906558 1.3122498m-2.5093442.6877502h-11c-1.1045695 0-2-.8954305-2-2v-6c0-1.1045695.8954305-2 2-2h1" /><path d="m1.5.7 14 14" /><path d="m6.3057638 5.65417596c-.49988337.53591416-.8057638 1.255148-.8057638 2.04582404 0 1.65685425 1.34314575 3 3 3 .77231532 0 1.47646791-.2918393 2.0081946-.77125485m.9918054-2.22874515c0-1.65685425-1.3431458-3-3-3" /></>)
     },
     {
         names: [
-            "capture"
+            "capture camera shoot hold record video act pose selfie"
         ],
         code: (<><path d="m16.5 5.5v-3.00587878c0-1.10227102-.8918463-1.99674657-1.9941126-1.99999134l-3.0058874-.00884851m5 11.01471863v3c0 1.1045695-.8954305 2-2 2h-3m-6-16.01471863-3.00588742.00884851c-1.10226624.00324477-1.99411258.89772032-1.99411258 1.99999134v3.00587878m5 11h-3c-1.1045695 0-2-.8954305-2-2v-3" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "card_timeline"
+            "card timeline playing card deck of cards business card identification card credit card greeting card postcard"
         ],
         code: (<><path d="m2.49999999 1.5h-1c-.55228475 0-1 .44771525-1 1v8c0 .5522847.44771525 1 1 1h1c.55228475 0 1-.4477153 1-1v-8c0-.55228475-.44771525-1-1-1zm13.00000001 0h-1c-.5522848 0-1 .44771525-1 1v8c0 .5522847.4477152 1 1 1h1c.5522847 0 1-.4477153 1-1v-8c0-.55228475-.4477153-1-1-1zm-5-1h-4.00000001c-.55228475 0-1 .44771525-1 1v10c0 .5522847.44771525 1 1 1h4.00000001c.5522847 0 1-.4477153 1-1v-10c0-.55228475-.4477153-1-1-1z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "card_view"
+            "card view playing card deck of cards business card identification card credit card greeting card postcard"
         ],
         code: (<><path d="m5.5.5h6c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2h-6c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2zm8 2.5h1c1.1045695 0 2 .8954305 2 2v5c0 1.1045695-.8954305 2-2 2h-1z" /><path d="m.5 3h1c1.1045695 0 2 .8954305 2 2v5c0 1.1045695-.8954305 2-2 2h-1z" /></>)
     },
@@ -422,7 +422,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "chat_add"
+            "chat add"
         ],
         code: (<><path d="m11.4182262 1.21376122c-.904128-.29938651-1.88845542-.46376122-2.9182262-.46376122-4.418278 0-8 3.02593755-8 6.75862069 0 1.45741942.54603279 2.80709561 1.47469581 3.91098161l-.97469581 4.5803977 3.91607376-2.4472652c1.07810761.4571647 2.29544433.7145066 3.58392624.7145066 4.418278 0 8-3.0259376 8-6.75862071 0-.68476204-.1205394-1.34573924-.3446699-1.96861327" /><path d="m14.5.5v4" /><path d="m14.5.5v4" /></>)
     },
@@ -434,109 +434,109 @@ export const iconsdb = [
     },
     {
         names: [
-            "checkbox_checked"
+            "checkbox checked"
         ],
         code: (<><path d="m2.5.5h10c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2z" /><path d="m4.5 7.5 2 2 4-4" /></>)
     },
     {
         names: [
-            "checkbox_empty"
+            "checkbox empty"
         ],
         code: (<><path d="m2.5.5h10c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "check_circle"
+            "check circle"
         ],
         code: (<><circle cx="8.5" cy="8.5" r="8" /><path d="m5.5 9.5 2 2 5-5" /></>)
     },
     {
         names: [
-            "check_circle_outside"
+            "check circle outside"
         ],
         code: (<><path d="m12.8571123 1.79063546c-3.70547974-2.40636667-8.66011018-1.35322746-11.06647684 2.35225226-2.40636667 3.70547972-1.35322746 8.66011018 2.35225226 11.06647678 1.40713892.9138067 2.9944136 1.3287299 4.55387082 1.2889715 2.54712886-.0649393 5.02004606-1.3428829 6.51260596-3.6412237 1.5774991-2.4291355 1.6682799-5.39509184.4997393-7.82805117" /><path d="m4.5 7.5 3 3 8-8" /></>)
     },
     {
         names: [
-            "chevron_close"
+            "chevron close"
         ],
         code: (<><path d="m.5 9.5 3-3 3 3" /><path d="m.5.5 3 3 3-3" /></>)
     },
     {
         names: [
-            "chevron_down"
+            "chevron down"
         ],
         code: (<><path d="m8.5.5-4 4-4-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "chevron_down_circle"
+            "chevron down circle"
         ],
         code: (<><circle cx="8.5" cy="8.5" r="8" /><path d="m5.466 7.466 3 3.068 3-3.068" /></>)
     },
     {
         names: [
-            "chevron_down_double"
+            "chevron down double"
         ],
         code: (<><path d="m8.5.5-4 4-4-4" /><path d="m8.5 4.5-4 4-4-4" /></>)
     },
     {
         names: [
-            "chevron_left"
+            "chevron left"
         ],
         code: (<><path d="m4.5 8.5-4-4 4-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "chevron_left_circle"
+            "chevron left circle"
         ],
         code: (<><circle cx="8.5" cy="8.5" r="8" /><path d="m9.55 11.4-3-2.9 3-3" /></>)
     },
     {
         names: [
-            "chevron_left_double"
+            "chevron left double"
         ],
         code: (<><path d="m8.5 8.5-4-4 4-4" /><path d="m4.5 8.5-4-4 4-4" /></>)
     },
     {
         names: [
-            "chevron_open"
+            "chevron open"
         ],
         code: (<><path d="m.5 3.5 3-3 3 3" /><path d="m.5 8.5 3 3 3-3" /></>)
     },
     {
         names: [
-            "chevron_right"
+            "chevron right"
         ],
         code: (<><path d="m.5 8.5 4-4-4-4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "chevron_right_circle"
+            "chevron right circle"
         ],
         code: (<><circle cx="8.5" cy="8.5" r="8" /><path d="m7.5 11.5 3-3-3.068-3" /></>)
     },
     {
         names: [
-            "chevron_right_double"
+            "chevron right double"
         ],
         code: (<><path d="m.5 8.5 4-4-4-4" /><path d="m4.5 8.5 4-4-4-4" /></>)
     },
     {
         names: [
-            "chevron_up"
+            "chevron up"
         ],
         code: (<><path d="m.5 4.5 4-4 4 4" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "chevron_up_circle"
+            "chevron up circle"
         ],
         code: (<><circle cx="8.5" cy="8.5" r="8" /><path d="m11.5 9.5-3-3-3 3" /></>)
     },
     {
         names: [
-            "chevron_up_double"
+            "chevron up double"
         ],
         code: (<><path d="m.5 8.5 4-4 4 4" /><path d="m.5 4.5 4-4 4 4" /></>)
     },
@@ -548,13 +548,13 @@ export const iconsdb = [
     },
     {
         names: [
-            "circle_menu"
+            "circle menu"
         ],
         code: (<> <circle cx="8.5" cy="8.5" r="8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m8.5 9.5c.5 0 1-.5 1-1s-.5-1-1-1-.99884033.5-.99884033 1 .49884033 1 .99884033 1zm-4 0c.5 0 1-.5 1-1s-.5-1-1-1-.99884033.5-.99884033 1 .49884033 1 .99884033 1zm8 0c.5 0 1-.5 1-1s-.5-1-1-1-.9988403.5-.9988403 1 .4988403 1 .9988403 1z" fill="currentColor" /></>)
     },
     {
         names: [
-            "circle_split"
+            "circle split"
         ],
         code: (<><circle cx="8.5" cy="8.5" r="8" /><path d="m8.5.5.027 16" /></>)
     },
@@ -566,37 +566,37 @@ export const iconsdb = [
     },
     {
         names: [
-            "clipboard_add"
+            "clipboard add"
         ],
         code: (<><path d="m3.5 1.5c-.42139382 0-1.08806048 0-2 0-.55228475 0-1 .44771525-1 1v11c0 .5522848.44771525 1 1 1h10c.5522847 0 1-.4477152 1-1v-11c0-.55228475-.4477153-1-1-1-.8888889 0-1.55555556 0-2 0" /><path d="m4.5.5h4c.55228475 0 1 .44771525 1 1s-.44771525 1-1 1h-4c-.55228475 0-1-.44771525-1-1s.44771525-1 1-1z" /><path d="m6.5 5.5v6.056" /><path d="m6.5 5.5v6" /></>)
     },
     {
         names: [
-            "clipboard_check"
+            "clipboard check"
         ],
         code: (<><path d="m3.5 1.5c-.42139382 0-1.08806048 0-2 0-.55228475 0-1 .44771525-1 1v11c0 .5522848.44771525 1 1 1h10c.5522847 0 1-.4477152 1-1v-11c0-.55228475-.4477153-1-1-1-.8888889 0-1.55555556 0-2 0" /><path d="m4.5.5h4c.55228475 0 1 .44771525 1 1s-.44771525 1-1 1h-4c-.55228475 0-1-.44771525-1-1s.44771525-1 1-1z" /><path d="m3.5 8.5 2 2 5-5" /></>)
     },
     {
         names: [
-            "clipboard_copy"
+            "clipboard copy"
         ],
         code: (<><path d="m6.5 11.5-3-3 3-3" /><path d="m3.5 8.5h11" /><path d="m12.5 6.5v-4.00491374c0-.51283735-.3860402-.93550867-.8833789-.99327378l-.1190802-.00672622-1.9975409.00491374m-6 0-1.99754087-.00492752c-.51283429-.00124584-.93645365.38375378-.99544161.88094891l-.00701752.11906329v10.99753792c.00061497.5520447.44795562.9996604 1 1.0006148l10 .0061554c.5128356.0008784.9357441-.3848611.993815-.8821612l.006185-.1172316v-2.5" /><path d="m4.5.5h4c.55228475 0 1 .44771525 1 1s-.44771525 1-1 1h-4c-.55228475 0-1-.44771525-1-1s.44771525-1 1-1z" /></>)
     },
     {
         names: [
-            "clipboard_cross"
+            "clipboard cross"
         ],
         code: (<><path d="m3.5 1.5c-.42139382 0-1.08806048 0-2 0-.55228475 0-1 .44771525-1 1v11c0 .5522848.44771525 1 1 1h10c.5522847 0 1-.4477152 1-1v-11c0-.55228475-.4477153-1-1-1-.8888889 0-1.55555556 0-2 0" /><path d="m4.5.5h4c.55228475 0 1 .44771525 1 1s-.44771525 1-1 1h-4c-.55228475 0-1-.44771525-1-1s.44771525-1 1-1z" /><path d="m3.5 11.5 6-6" /><path d="m3.5 5.5 6 6" /></>)
     },
     {
         names: [
-            "clipboard_notes"
+            "clipboard notes"
         ],
         code: (<><path d="m3.5 1.5c-.42139382 0-1.08806048 0-2 0-.55228475 0-1 .44771525-1 1v11c0 .5522848.44771525 1 1 1h10c.5522847 0 1-.4477152 1-1v-11c0-.55228475-.4477153-1-1-1-.8888889 0-1.55555556 0-2 0" /><path d="m4.5.5h4c.55228475 0 1 .44771525 1 1s-.44771525 1-1 1h-4c-.55228475 0-1-.44771525-1-1s.44771525-1 1-1z" /><path d="m5.5 5.5h5" /><path d="m5.5 8.5h5" /><path d="m5.5 11.5h5" /><path d="m2.5 5.5h1" /><path d="m2.5 8.5h1" /><path d="m2.5 11.5h1" /></>)
     },
     {
         names: [
-            "clipboard_remove"
+            "clipboard remove"
         ],
         code: (<><path d="m3.5 1.5c-.42139382 0-1.08806048 0-2 0-.55228475 0-1 .44771525-1 1v11c0 .5522848.44771525 1 1 1h10c.5522847 0 1-.4477152 1-1v-11c0-.55228475-.4477153-1-1-1-.8888889 0-1.55555556 0-2 0" /><path d="m4.5.5h4c.55228475 0 1 .44771525 1 1s-.44771525 1-1 1h-4c-.55228475 0-1-.44771525-1-1s.44771525-1 1-1z" /><path d="m6.5 5.5v6" /></>)
     },
@@ -620,31 +620,31 @@ export const iconsdb = [
     },
     {
         names: [
-            "cloud_disconnect"
+            "cloud disconnect"
         ],
         code: (<><path d="m6.7387371 1.81902812c.54779873-.20621538 1.1413564-.31902812 1.7612629-.31902812 2.7614237 0 5 2.23857625 5 5 0 .48543539-.0691781.95471338-.1982137 1.39851335.3339576-.25026476.748773-.39851335 1.1982137-.39851335 1.1045695 0 2 .8954305 2 2 0 .7252268-.3860055 1.3602973-.963771 1.7109657m-2.103856.2890343c-2.7134953 0-9.22769921 0-9.932373 0-1.65685425 0-3-1.3431458-3-3 0-1.65685425 1.34314575-3 3-3 .03335948 0 .06659179.00054449.09968852.00162508.19090431-.94207596.64666454-1.78803816 1.28619295-2.45679888" /><path d="m2 0 13 13.071" /></>)
     },
     {
         names: [
-            "cloud_download"
+            "cloud download"
         ],
         code: (<><path d="m8.5.5c2.7614237 0 5 2.23857625 5 5 0 .48543539-.0691781.95471338-.1982137 1.39851335.3339576-.25026476.748773-.39851335 1.1982137-.39851335 1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2c-1.104407 0-10.16182706 0-11 0-1.65685425 0-3-1.34314575-3-3s1.34314575-3 3-3c.03335948 0 .06659179.00054449.09968852.00162508.46264217-2.28304993 2.48077946-4.00162508 4.90031148-4.00162508z" /><path d="m10.5 6.5-2 2-2-2" /><path d="m8.5 2.5v6" /></>)
     },
     {
         names: [
-            "cloud_download_alt"
+            "cloud download alt"
         ],
         code: (<><path d="m6.5 10.5h-4c-1.15200478-.4188699-2-1.70322102-2-3 0-1.65685425 1.34314575-3 3-3 .03335948 0 .06659179.00054449.09968852.00162508.46264217-2.28304993 2.48077946-4.00162508 4.90031148-4.00162508 2.7614237 0 5 2.23857625 5 5 0 .48543539-.0691781.95471338-.1982137 1.39851335.3339576-.25026476.748773-.39851335 1.1982137-.39851335 1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2h-4" /><path d="m6.5 12.5 2 2 2-2" /><path d="m8.5 4.5v10" /></>)
     },
     {
         names: [
-            "cloud_upload"
+            "cloud upload"
         ],
         code: (<><path d="m8.5.5c2.7614237 0 5 2.23857625 5 5 0 .48543539-.0691781.95471338-.1982137 1.39851335.3339576-.25026476.748773-.39851335 1.1982137-.39851335 1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2c-1.104407 0-10.16182706 0-11 0-1.65685425 0-3-1.34314575-3-3s1.34314575-3 3-3c.03335948 0 .06659179.00054449.09968852.00162508.46264217-2.28304993 2.48077946-4.00162508 4.90031148-4.00162508z" /><path d="m6.5 4.5 2-2 2 2" /><path d="m8.5 2.5v6" /></>)
     },
     {
         names: [
-            "cloud_upload_alt"
+            "cloud upload alt"
         ],
         code: (<><path d="m11.5779891 4.55941656c1.1699828.91516665 1.9220109 2.34005226 1.9220109 3.94058344 0 .48543539-.0691781.95471338-.1982137 1.39851335.3339576-.25026476.748773-.39851335 1.1982137-.39851335 1.1045695 0 2 .8954305 2 2s-.8954305 2-2 2c-1.104407 0-10.16182706 0-11 0-1.65685425 0-3-1.3431458-3-3 0-1.65685425 1.34314575-3 3-3 .03335948 0 .06659179.00054449.09968852.00162508.242805-1.19819586.9140534-2.24091357 1.84691265-2.96132058" /><path d="m6.5 2.5 2-2 2 2" /><path d="m8.5.5v9" /></>)
     },
@@ -674,7 +674,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "component_add"
+            "component add"
         ],
         code: (<><path d="m6.5 3.5h-4c-1.1045695 0-2 .8954305-2 2v7c0 1.1045695.8954305 2 2 2h7c1.1045695 0 2-.8954305 2-2v-3.5-.5" /><path d="m11.5.5v6" /><path d="m11.5.5v6" /></>)
     },
@@ -698,7 +698,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "credit_card"
+            "credit card"
         ],
         code: (<> <path d="m2.5.5h12c1.1045695 0 2 .8954305 2 2v7c0 1.1045695-.8954305 2-2 2h-12c-1.1045695 0-2-.8954305-2-2v-7c0-1.1045695.8954305-2 2-2z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m0 4h17v2h-17z" fill="currentColor" /></>)
     },
@@ -722,7 +722,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "cross_circle"
+            "cross circle"
         ],
         code: (<><circle cx="8.5" cy="8.5" r="8" /><path d="m5.5 11.5 6-6" /><path d="m5.5 5.5 6 6" /></>)
     },
@@ -776,7 +776,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "display_alt"
+            "display alt"
         ],
         code: (<><path d="m2 4.5h11c1.1045695 0 2 .8954305 2 2v6.0488218c0 1.0543618-.8158778 1.9181652-1.8507377 1.9945143l-.1567755.0054716-10.99999997-.0413227c-1.10162878-.0041384-1.99248683-.8983493-1.99248683-1.9999859v-6.0074991c0-1.1045695.8954305-2 2-2z" /><path d="m2.464 2.5h10.036" /><path d="m4.5.5h6" /></>)
     },
@@ -788,25 +788,25 @@ export const iconsdb = [
     },
     {
         names: [
-            "document_justified"
+            "document justified"
         ],
         code: (<><path d="m12.5 12.5v-10c0-1.1045695-.8954305-2-2-2h-8c-1.1045695 0-2 .8954305-2 2v10c0 1.1045695.8954305 2 2 2h8c1.1045695 0 2-.8954305 2-2z" /><path d="m3.5 4.5h6" /><path d="m3.5 7.5h6" /><path d="m3.5 10.5h6" /><path d="m12.5 12.5v-10c0-1.1045695-.8954305-2-2-2h-8c-1.1045695 0-2 .8954305-2 2v10c0 1.1045695.8954305 2 2 2h8c1.1045695 0 2-.8954305 2-2z" /><path d="m3.5 4.5h6" /><path d="m3.5 7.5h6" /><path d="m3.5 10.5h6" /></>)
     },
     {
         names: [
-            "document_list"
+            "document list"
         ],
         code: (<><path d="m12.5 12.5v-10c0-1.1045695-.8954305-2-2-2h-8c-1.1045695 0-2 .8954305-2 2v10c0 1.1045695.8954305 2 2 2h8c1.1045695 0 2-.8954305 2-2z" /><path d="m5.5 4.5h5" /><path d="m2.5 4.5h1" /><path d="m5.5 7.5h5" /><path d="m2.5 7.5h1" /><path d="m5.5 10.5h5" /><path d="m2.5 10.5h1" /></>)
     },
     {
         names: [
-            "document_stack"
+            "document stack"
         ],
         code: (<><path d="m16.5 12.5v-10c0-1.1045695-.8954305-2-2-2h-8c-1.1045695 0-2 .8954305-2 2v10c0 1.1045695.8954305 2 2 2h8c1.1045695 0 2-.8954305 2-2z" /><path d="m4.30542777 2.93478874-2.00419132.72946598c-1.03795581.37778502-1.57312998 1.52546972-1.19534496 2.56342553l3.42020143 9.39692625c.37778502 1.0379558 1.52546972 1.5731299 2.56342553 1.1953449l5.56843115-2.1980811" /><path d="m7.5 5.5h5" /><path d="m7.5 7.5h6" /><path d="m7.5 9.5h3" /></>)
     },
     {
         names: [
-            "document_words"
+            "document words"
         ],
         code: (<><path d="m12.5 12.5v-10c0-1.1045695-.8954305-2-2-2h-8c-1.1045695 0-2 .8954305-2 2v10c0 1.1045695.8954305 2 2 2h8c1.1045695 0 2-.8954305 2-2z" /><path d="m3.5 5.5h5" /><path d="m3.5 7.5h6" /><path d="m3.5 9.5h3" /></>)
     },
@@ -818,7 +818,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "door_alt"
+            "door alt"
         ],
         code: (<><path d="m2.5 2.5h2v14h-2c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2zm4.70224688-1.98665742 4.00000002 1.5c.7806074.29272779 1.2977531 1.03896923 1.2977531 1.87265836v11.22799816c0 .8336891-.5171457 1.5799305-1.2977531 1.8726583l-4.00000002 1.5c-1.03424065.3878403-2.18706499-.1361708-2.57490524-1.1704115-.08420779-.2245541-.12734164-.4624229-.12734164-.7022468v-14.22799816c0-1.1045695.8954305-2 2-2 .2398239 0 .47769277.04313385.70224688.12734164z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><circle cx="6.5" cy="9.5" fill="currentColor" r="1" /></>)
     },
@@ -830,7 +830,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "download_alt"
+            "download alt"
         ],
         code: (<><path d="m11.5 8.5-3.978 4-4.022-4" /><path d="m7.522.521v11.979" /><path d="m.5 9v4.5c0 1.1045695.8954305 2 2 2h10c1.1045695 0 2-.8954305 2-2v-4.5" /></>)
     },
@@ -848,13 +848,13 @@ export const iconsdb = [
     },
     {
         names: [
-            "drag_circle"
+            "drag circle"
         ],
         code: (<><circle cx="10.5" cy="10.5" r="8" /><path d="m6.5 8.5h8" /><path d="m6.5 10.5h8" /><path d="m6.5 12.5h8" /></>)
     },
     {
         names: [
-            "drag_vertical"
+            "drag vertical"
         ],
         code: (<><path d="m7 5h2v2h-2z" /><path d="m12 5h2v2h-2z" /><path d="m7 9h2v2h-2z" /><path d="m12 9h2v2h-2z" /><path d="m7 13h2v2h-2z" /><path d="m12 13h2v2h-2z" /></>)
     },
@@ -866,7 +866,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "duplicate_alt"
+            "duplicate alt"
         ],
         code: (<><path d="m12.5 14.5v-8c0-1.1045695-.8954305-2-2-2h-8c-1.1045695 0-2 .8954305-2 2v8c0 1.1045695.8954305 2 2 2h8c1.1045695 0 2-.8954305 2-2z" /><path d="m12.5 12.5h2c1.1045695 0 2-.8954305 2-2v-7.99654173c0-1.1045695-.8954305-2-2-2-.0011518 0-.0023035 0-.0034553 0l-7.99999998.01382415c-1.10321873.00190597-1.99654472.89677664-1.99654472 1.99999701v1.98272057" /><path d="m6.5 7.5v6" /><path d="m6.5 7.5v6" /></>)
     },
@@ -878,7 +878,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "enter_alt"
+            "enter alt"
         ],
         code: (<><path d="m7 10.027-3-3.035 3-3" /><path d="m9 1.992v10" /><path d="m12 4.9918869v-2.95924861c0-1.10138928-.890473-1.99549696-1.9918531-1.99998341l-8.00000001-.03267133c-1.10456034-.0044159-2.00363089.88735968-2.00814689 1.99192002v.00814689 9.99183644c0 1.1045695.8954305 2 2 2h8c1.1045695 0 2-.8954305 2-2v-3" /></>)
     },
@@ -890,13 +890,13 @@ export const iconsdb = [
     },
     {
         names: [
-            "exit_left"
+            "exit left"
         ],
         code: (<><path d="m10.595 10.5 2.905-3-2.905-3" /><path d="m13.5 7.5h-9" /><path d="m10.5.5-8 .00224609c-1.1043501.00087167-1.9994384.89621131-2 2.00056153v9.99438478c.0005616 1.1043502.8956499 1.9996898 2 2.0005615l8 .0022461" /></>)
     },
     {
         names: [
-            "exit_right"
+            "exit right"
         ],
         code: (<><path d="m10.595 10.5 2.905-3-2.905-3" /><path d="m13.5 7.5h-9" /><path d="m10.5.5-8 .00224609c-1.1043501.00087167-1.9994384.89621131-2 2.00056153v9.99438478c0 1.1045695.8954305 2 2 2h8.0954792" /></>)
     },
@@ -908,13 +908,13 @@ export const iconsdb = [
     },
     {
         names: [
-            "expand_height"
+            "expand height"
         ],
         code: (<><path d="m16.51.51h-16.02" /><path d="m16.51 18.51h-16.02" /><path d="m6.503 18.525 4-4-4-4.015" /><path d="m10.503 8.525-4-4 4-4.015" /><path d="m8.51 16.51v-14" /></>)
     },
     {
         names: [
-            "expand_width"
+            "expand width"
         ],
         code: (<><path d="m.5.5v16.021" /><path d="m18.5.5v16.021" /><path d="m12.507 12.515 4-4-4-4.015" /><path d="m6.507 12.515-4-4 4-4.015" /><path d="m16.5 8.5h-14" /></>)
     },
@@ -932,67 +932,67 @@ export const iconsdb = [
     },
     {
         names: [
-            "eye_closed"
+            "eye closed"
         ],
         code: (<><path d="m0 .5c2.53705308 3.66666667 5.37038642 5.5 8.5 5.5 3.1296136 0 5.9629469-1.83333333 8.5-5.5" /><path d="m2.5 3.423-2 2.077" /><path d="m14.5 3.423 2 2.077" /><path d="m10.5 6 1 2.5" /><path d="m6.5 6-1 2.5" /></>)
     },
     {
         names: [
-            "eye_no"
+            "eye no"
         ],
         code: (<><path d="M4.21098664 2.25927021C2.72674608 3.17424129 1.32308387 4.58781789 0 6.5 2.53705308 10.1666667 5.37038642 12 8.5 12 9.9230893 12 11.2849174 11.6209257 12.5854843 10.8627772M14.173426 9.72269094C15.1532781 8.88149971 16.0954695 7.8072694 17 6.5 14.4629469 2.83333333 11.6296136 1 8.5 1 7.66950473 1 6.85987336 1.1291024 6.0711059 1.38730721" /><line x1="2" x2="15" y2="13.071" /></>)
     },
     {
         names: [
-            "face_delighted"
+            "face delighted"
         ],
         code: (<> <circle cx="8.5" cy="8.5" r="8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><circle cx="6" cy="6" fill="currentColor" r="1" /><circle cx="11" cy="6" fill="currentColor" r="1" /><path d="m4.5 10.5c.66628011 2 1.99961344 3 2.0003866 0 3.3337199-1 4-3z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "face_happy"
+            "face happy"
         ],
         code: (<> <circle cx="8.5" cy="8.5" r="8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><circle cx="6" cy="6" fill="currentColor" r="1" /><circle cx="11" cy="6" fill="currentColor" r="1" /><path d="m5.5 9.5c.60286458 1.3333333 1.60286458 2 3 2s2.3971354-.6666667 3-2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "face_neutral"
+            "face neutral"
         ],
         code: (<> <circle cx="8.5" cy="8.5" r="8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><circle cx="6" cy="6" fill="currentColor" r="1" /><circle cx="11" cy="6" fill="currentColor" r="1" /><path d="m5.5 10.5h6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "face_sad"
+            "face sad"
         ],
         code: (<> <path d="m8.5 16.5c4.418278 0 8-3.581722 8-8s-3.581722-8-8-8-8 3.581722-8 8 3.581722 8 8 8z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><circle cx="6" cy="6" fill="currentColor" r="1" /><circle cx="11" cy="6" fill="currentColor" r="1" /><path d="m5.5 11.5c.60286458-1.3333333 1.60286458-2 3-2s2.3971354.6666667 3 2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "files_history"
+            "files history"
         ],
         code: (<><path d="m14.5 12.5v-7l-5-5h-5c-1.1045695 0-2 .8954305-2 2v10c0 1.1045695.8954305 2 2 2h8c1.1045695 0 2-.8954305 2-2z" /><path d="m8.5 4.5v4h3" /><path d="m2.5 2.5c-1.1045695 0-2 .8954305-2 2v10c0 1.1045695.8954305 2 2 2h8c1.1045695 0 2-.8954305 2-2" /></>)
     },
     {
         names: [
-            "files_multi"
+            "files multi"
         ],
         code: (<><path d="m14.5 12.5v-7l-5-5h-5c-1.1045695 0-2 .8954305-2 2v10c0 1.1045695.8954305 2 2 2h8c1.1045695 0 2-.8954305 2-2z" /><path d="m.5 2.5v10c0 2.209139 1.790861 4 4 4h8m-3-16v3c0 1.1045695.8954305 2 2 2h3" /></>)
     },
     {
         names: [
-            "files_stack"
+            "files stack"
         ],
         code: (<><path d="m14.5 12.5v-7l-5-5h-5c-1.1045695 0-2 .8954305-2 2v10c0 1.1045695.8954305 2 2 2h8c1.1045695 0 2-.8954305 2-2z" /><path d="m9.5.5v3c0 1.1045695.8954305 2 2 2h3m-12-3c-1.1045695 0-2 .8954305-2 2v10c0 1.1045695.8954305 2 2 2h8c1.1045695 0 2-.8954305 2-2" /></>)
     },
     {
         names: [
-            "file_download"
+            "file download"
         ],
         code: (<><path d="m4.5 1.5h-2.00245461c-1.1045695 0-2 .8954305-2 2v10c0 1.1045695.8954305 2 2 2h8.00000001c1.1043778-.000491 1.9997288-.8956223 2.0004909-2l.0019637-8-4-4" /><path d="m9.5 8.586-3 2.914-3-2.914" /><path d="m6.5.5v11" /></>)
     },
     {
         names: [
-            "file_upload"
+            "file upload"
         ],
         code: (<><path d="m8.5 14.5h2c1.1045695 0 2-.8954305 2-2v-8l-4-4h-6c-1.1045695 0-2 .8954305-2 2v10c0 1.1045695.8954305 2 2 2h2" /><path d="m3.5 7.5 3-3 3 3" /><path d="m6.5 4.5v11" /></>)
     },
@@ -1016,13 +1016,13 @@ export const iconsdb = [
     },
     {
         names: [
-            "filter_circle"
+            "filter circle"
         ],
         code: (<><circle cx="10.5" cy="10.5" r="8" /><path d="m6.5 8.5h8" /><path d="m8.5 10.5h4" /><path d="m9.5 12.5h2" /></>)
     },
     {
         names: [
-            "filter_single"
+            "filter single"
         ],
         code: (<><path d="m10.5 8v-5.5" /><path d="m10.5 18.5v-5.5" /><circle cx="10.5" cy="10.5" r="2.5" /></>)
     },
@@ -1046,13 +1046,13 @@ export const iconsdb = [
     },
     {
         names: [
-            "flame_alt"
+            "flame alt"
         ],
         code: (<><path d="m5.5 0c3.66666667 3.33333333 5.5 6.42857143 5.5 9.28571429 0 3.07807311-1.27021139 5.19816551-3.11142285 6.14857691.23027671-.4916139.36142285-1.0920694.36142285-1.7914341 0-1.4285714-.91666667-2.9761904-2.75-4.6428571-1.83333333 1.6666667-2.75 3.2142857-2.75 4.6428571 0 .6993647.13114614 1.2998202.36063321 1.7914341-1.84042182-.9504114-3.11063321-3.0705038-3.11063321-6.14857691 0-2.85714286 1.83333333-5.95238096 5.5-9.28571429z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "flip_view"
+            "flip view"
         ],
         code: (<><path d="m15.6893661 13.7425356.5-2c.1339487-.5357949-.191812-1.0787294-.7276069-1.2126781-.0793206-.0198302-.1607738-.0298575-.2425356-.0298575h-13.43844719c-.55228475 0-1 .4477153-1 1 0 .0817618.01002735.163215.0298575.2425356l.5 2c.11129175.445167.51127485.7574644.9701425.7574644h12.43844719c.4588676 0 .8588507-.3122974.9701425-.7574644zm-.1893661-5.2425356.5606576-1.68197288c.1746478-.52394332-.1085122-1.09026329-.6324555-1.26491107-.1023789-.03412629-.2096068-.05145569-.3175235-.0513167l-13.22209729.01713315c-.55228428.00071562-.99941904.44901061-.99870428 1.0012949 0 .10774719.01769263.21476369.05197848.31691043l.55814449 1.66286217m14-5 .3059335-1.83560101c.0907951-.54477032-.2772246-1.05999786-.8219949-1.15079291-.0543315-.00905524-.1093182-.01360608-.164399-.01360608h-12.63907918c-.55228475 0-1 .44771525-1 1 0 .05508086.00455084.11006756.01360608.16439899l.3059335 1.83560101" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
@@ -1064,31 +1064,31 @@ export const iconsdb = [
     },
     {
         names: [
-            "folder_add"
+            "folder add"
         ],
         code: (<><path d="m.5 1.5v9c0 1.1045695.8954305 2 2 2h10c1.1045695 0 2-.8954305 2-2v-6.00280762c.000802-1.1045695-.8946285-2-1.999198-2-.0002674 0-.0005348.00000006-.0008018.00080218l-5.0000002.00200544-2-2h-4c-.55228475 0-1 .44771525-1 1z" /><path d="m5.5 7.5h4" /><path d="m7.5 9.556v-4.056" /></>)
     },
     {
         names: [
-            "folder_closed"
+            "folder closed"
         ],
         code: (<><path d="m.5 1.5v9c0 1.1045695.8954305 2 2 2h10c1.1045695 0 2-.8954305 2-2v-6.00280762c.0007656-1.05436179-.8150774-1.91816512-1.8499357-1.99451426l-.1500643-.00468356-5 .00200544-2-2h-4c-.55228475 0-1 .44771525-1 1z" /><path d="m.5 2.5h7" /></>)
     },
     {
         names: [
-            "folder_minus"
+            "folder minus"
         ],
         code: (<><path d="m.5 1.5v9c0 1.1045695.8954305 2 2 2h10c1.1045695 0 2-.8954305 2-2v-6.00280762c.0007656-1.05436179-.8150774-1.91816512-1.8499357-1.99451426l-.1500643-.00468356-5 .00200544-2-2h-4c-.55228475 0-1 .44771525-1 1z" /><path d="m5.5 7.5h4" /></>)
     },
     {
         names: [
-            "folder_open"
+            "folder open"
         ],
         code: (<><path d="m15.5 4.5c.000802-1.10737712-.8946285-2.00280762-1.999198-2.00280762l-5.000802.00280762-2-2h-4c-.55228475 0-1 .44771525-1 1v.99719238 2.00280762" /><path d="m.81056316 5.74177845 1.31072322 5.24326075c.22257179.8903496 1.02254541 1.5149608 1.94029301 1.5149608h8.87667761c.9177969 0 1.7178001-.6246768 1.9403251-1.5150889l1.3108108-5.24508337c.1339045-.53580596-.1919011-1.07871356-.727707-1.21261805-.079341-.0198283-.1608148-.02983749-.2425959-.02983749l-13.43852073.00188666c-.55228474.00007754-.99985959.44785564-.99985959 1.00014038 0 .08170931.01003737.16310922.02985348.24237922z" /></>)
     },
     {
         names: [
-            "fork_git"
+            "fork git"
         ],
         code: (<><path d="m12.5.5 3 3-3 3" /><path d="m15.5 3.5h-5l-4 5.086" /><path d="m12.5 9.5 3 3-3 3" /><path d="m15.5 12.5h-5l-4-4h-6" /></>)
     },
@@ -1148,19 +1148,19 @@ export const iconsdb = [
     },
     {
         names: [
-            "graph_bar"
+            "graph bar"
         ],
         code: (<><path d="m.5.5v12c0 1.1045695.8954305 2 2 2h11.5" /><path d="m3.5 8.5v3" /><path d="m7.5 5.5v6" /><path d="m11.5 2.5v9" /></>)
     },
     {
         names: [
-            "graph_box"
+            "graph box"
         ],
         code: (<><path d="m2.5.5h10c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2z" /><path d="m4.5 11.435v-7.935" /><path d="m7.5 11.485v-3.985" /><path d="m10.5 11.5v-6" /></>)
     },
     {
         names: [
-            "graph_increase"
+            "graph increase"
         ],
         code: (<><path d="m.5.5v11c0 1.1045695.8954305 2 2 2h11" /><path d="m2.5 9.5 3-3 2 2 5-5" /><path d="m12.5 6.5v-3h-3" /></>)
     },
@@ -1172,31 +1172,31 @@ export const iconsdb = [
     },
     {
         names: [
-            "grid_circles"
+            "grid circles"
         ],
         code: (<><circle cx="7.5" cy="7.5" r="2" /><circle cx="13.5" cy="7.5" r="2" /><circle cx="7.5" cy="13.5" r="2" /><circle cx="13.5" cy="13.5" r="2" /></>)
     },
     {
         names: [
-            "grid_circles_add"
+            "grid circles add"
         ],
         code: (<><circle cx="13.5" cy="7.5" r="2" /><circle cx="7.5" cy="7.5" r="2" /><circle cx="7.5" cy="13.5" r="2" /><path d="m13.5 11.5v4" /><path d="m15.5 13.5h-4" /></>)
     },
     {
         names: [
-            "grid_small"
+            "grid small"
         ],
         code: (<><path d="m5 4h1c.55228475 0 1 .44771525 1 1v1c0 .55228475-.44771525 1-1 1h-1c-.55228475 0-1-.44771525-1-1v-1c0-.55228475.44771525-1 1-1zm0-4h1c.55228475 0 1 .44771525 1 1v1c0 .55228475-.44771525 1-1 1h-1c-.55228475 0-1-.44771525-1-1v-1c0-.55228475.44771525-1 1-1zm4 4h1c.5522847 0 1 .44771525 1 1v1c0 .55228475-.4477153 1-1 1h-1c-.55228475 0-1-.44771525-1-1v-1c0-.55228475.44771525-1 1-1zm0-4h1c.5522847 0 1 .44771525 1 1v1c0 .55228475-.4477153 1-1 1h-1c-.55228475 0-1-.44771525-1-1v-1c0-.55228475.44771525-1 1-1zm0 8h1c.5522847 0 1 .44771525 1 1v1c0 .5522847-.4477153 1-1 1h-1c-.55228475 0-1-.4477153-1-1v-1c0-.55228475.44771525-1 1-1zm-4 0h1c.55228475 0 1 .44771525 1 1v1c0 .5522847-.44771525 1-1 1h-1c-.55228475 0-1-.4477153-1-1v-1c0-.55228475.44771525-1 1-1zm-4-4h1c.55228475 0 1 .44771525 1 1v1c0 .55228475-.44771525 1-1 1h-1c-.55228475 0-1-.44771525-1-1v-1c0-.55228475.44771525-1 1-1zm0-4h1c.55228475 0 1 .44771525 1 1v1c0 .55228475-.44771525 1-1 1h-1c-.55228475 0-1-.44771525-1-1v-1c0-.55228475.44771525-1 1-1zm0 8h1c.55228475 0 1 .44771525 1 1v1c0 .5522847-.44771525 1-1 1h-1c-.55228475 0-1-.4477153-1-1v-1c0-.55228475.44771525-1 1-1z" fill="currentColor" fill-rule="evenodd" /></>)
     },
     {
         names: [
-            "grid_squares"
+            "grid squares"
         ],
         code: (<><path d="m3.49859901.50058486-2 .00245141c-.55180573.00067635-.9987743.4481931-.9987743.99999924v1.99673096c0 .51283584.38604019.93550716.88337888.99327227l.11784682.00672698 2-.00245141c.55180573-.00067635.9987743-.4481931.9987743-.99999925v-1.9967302c0-.51283659-.38604019-.93550791-.88337887-.99327302zm6 0-2 .00245141c-.55180573.00067635-.9987743.4481931-.9987743.99999924v1.99673096c0 .51283584.38604019.93550716.88337888.99327227l.11784682.00672698 2-.00245141c.55180569-.00067635.99877429-.4481931.99877429-.99999925v-1.9967302c0-.51283659-.3860402-.93550791-.88337886-.99327302zm-6 6-2 .00245141c-.55180573.00067635-.9987743.4481931-.9987743.99999924v1.99673096c0 .51283583.38604019.93550713.88337888.99327223l.11784682.006727 2-.0024514c.55180573-.0006763.9987743-.4481931.9987743-.99999924v-1.9967302c0-.51283659-.38604019-.93550791-.88337887-.99327302zm6 0-2 .00245141c-.55180573.00067635-.9987743.4481931-.9987743.99999924v1.99673096c0 .51283583.38604019.93550713.88337888.99327223l.11784682.006727 2-.0024514c.55180569-.0006763.99877429-.4481931.99877429-.99999924v-1.9967302c0-.51283659-.3860402-.93550791-.88337886-.99327302z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "grid_squares_add"
+            "grid squares add"
         ],
         code: (<><path d="m3.49859901.50058486-2 .00245141c-.55180573.00067635-.9987743.4481931-.9987743.99999924v1.99673096c0 .51283584.38604019.93550716.88337888.99327227l.11784682.00672698 2-.00245141c.55180573-.00067635.9987743-.4481931.9987743-.99999925v-1.9967302c0-.51283659-.38604019-.93550791-.88337887-.99327302zm6 0-2 .00245141c-.55180573.00067635-.9987743.4481931-.9987743.99999924v1.99673096c0 .51283584.38604019.93550716.88337888.99327227l.11784682.00672698 2-.00245141c.55180569-.00067635.99877429-.4481931.99877429-.99999925v-1.9967302c0-.51283659-.3860402-.93550791-.88337886-.99327302zm-6 6-2 .00245141c-.55180573.00067635-.9987743.4481931-.9987743.99999924v1.99673096c0 .51283583.38604019.93550713.88337888.99327223l.11784682.006727 2-.0024514c.55180573-.0006763.9987743-.4481931.9987743-.99999924v-1.9967302c0-.51283659-.38604019-.93550791-.88337887-.99327302z" /><path d="m8.5 6.5v4" /><path d="m10.5 8.5h-4" /></>)
     },
@@ -1226,13 +1226,13 @@ export const iconsdb = [
     },
     {
         names: [
-            "heart_rate"
+            "heart rate"
         ],
         code: (<><path d="m0 6.5h2l2.5-6 2 12 3-9 2.095 6 1.405-3h2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "heart_remove"
+            "heart remove"
         ],
         code: (<><path d="m10.6718483 10.813433c-.6501741.6501742-1.80095146 1.8009515-3.42920761 3.4292077l-6-6.00000001c-1.65685425-1.65685425-1.65685425-4.34314575 0-6 .16405182-.16405183.35499091-.3101803.56588065-.4373774m2.45362752-.60559794c1.38818727.03475311 2.70563079.66867016 2.98049183 2.04297534.5-2.5 4.34314571-2.65685425 6.00000001-1 1.6034073 1.60340734 1.4999617 4.3343931 0 6-.4165558.41655583-.7289727.7289727-.9372506.93725061" /><path d="m.743.743 13 13.071" /></>)
     },
@@ -1256,19 +1256,19 @@ export const iconsdb = [
     },
     {
         names: [
-            "home_alt"
+            "home alt"
         ],
         code: (<><path d="m.5 9.5 9-9 9 9" /><path d="m2.5 10.5v4c0 1.1045695.8954305 2 2 2h10c1.1045695 0 2-.8954305 2-2v-4" /></>)
     },
     {
         names: [
-            "home_check"
+            "home check"
         ],
         code: (<><path d="m.5 9.5 9-9 9 9" /><path d="m2.5 7.5v7c0 1.1045695.8954305 2 2 2h10c1.1045695 0 2-.8954305 2-2v-7" /><path d="m6.5 10.5 2 2 4-4" /></>)
     },
     {
         names: [
-            "home_door"
+            "home door"
         ],
         code: (<><path d="m.5 9.5 9-9 9 9" /><path d="m2.5 7.5v8c0 .5522847.44771525 1 1 1h3c.55228475 0 1-.4477153 1-1v-4c0-.5522847.44771525-1 1-1h2c.5522847 0 1 .4477153 1 1v4c0 .5522847.4477153 1 1 1h3c.5522847 0 1-.4477153 1-1v-8" /></>)
     },
@@ -1286,49 +1286,49 @@ export const iconsdb = [
     },
     {
         names: [
-            "inbox_alt"
+            "inbox alt"
         ],
         code: (<><path d="m10 3h2.3406038c.4000282 0 .7615663.23839685.9191451.6060807l2.7402511 6.3939193v4c0 1.1045695-.8954305 2-2 2h-12c-1.1045695 0-2-.8954305-2-2v-4l2.74025113-6.3939193c.15757879-.36768385.51911692-.6060807.91914503-.6060807h2.34060384" /><path d="m11 6.086-3 2.914-3-2.914" /><path d="m8 0v9" /><path d="m0 10h4c.55228475 0 1 .4477153 1 1v1c0 .5522847.44771525 1 1 1h4c.5522847 0 1-.4477153 1-1v-1c0-.5522847.4477153-1 1-1h4" /></>)
     },
     {
         names: [
-            "info_circle"
+            "info circle"
         ],
         code: (<><circle cx="8.5" cy="8.5" r="8" /><path d="m8.5 12.5v-4h-1" /><path d="m7.5 12.5h2" /><circle cx="8.5" cy="5.5" fill="currentColor" r="1" /></>)
     },
     {
         names: [
-            "iphone_landscape"
+            "iphone landscape"
         ],
         code: (<> <path d="m2.5.5h10c1.1045695 0 2 .8954305 2 2v6c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2v-6c0-1.1045695.8954305-2 2-2z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><circle cx="11.5" cy="5.5" fill="currentColor" r="1" /></>)
     },
     {
         names: [
-            "iphone_portrait"
+            "iphone portrait"
         ],
         code: (<><path d="m2.5.5h6c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2h-6c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><circle cx="5.5" cy="11.5" fill="currentColor" r="1" /></>)
     },
     {
         names: [
-            "jump_backward"
+            "jump backward"
         ],
         code: (<><path d="m14 8v-2c0-1.65685425-1.3431458-3-3-3h-8" /><path d="m3 6-3.001-3 3.001-3" /><path d="m6 6-3.001-3 3.001-3" /></>)
     },
     {
         names: [
-            "jump_forward"
+            "jump forward"
         ],
         code: (<><path d="m0 8v-2c0-1.65685425 1.34314575-3 3-3h8" /><path d="m7.999 6 3.001-3-3.001-3" /><path d="m10.999 6 3.001-3-3.001-3" /></>)
     },
     {
         names: [
-            "jump_left"
+            "jump left"
         ],
         code: (<><path d="m11 8v-2c0-1.65685425-1.34314575-3-3-3h-8" /><path d="m3 6-3.001-3 3.001-3" /></>)
     },
     {
         names: [
-            "jump_right"
+            "jump right"
         ],
         code: (<><path d="m0 8v-2c0-1.65685425 1.34314575-3 3-3h8" /><path d="m7.999 6 3.001-3-3.001-3" /></>)
     },
@@ -1352,7 +1352,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "lightbulb_on"
+            "lightbulb on"
         ],
         code: (<><path d="m6.5 17.5h4" /><path d="m8.5 4c2.4852814 0 4.5 2.01471863 4.5 4.5 0 1.7663751-1.017722 3.2950485-2.4987786 4.031633l-.0012214.968367c0 1.1045695-.8954305 2-2 2s-2-.8954305-2-2l-.00021218-.9678653c-1.48160351-.7363918-2.49978782-2.2653584-2.49978782-4.0321347 0-2.48528137 2.01471863-4.5 4.5-4.5z" /><path d="m8.5 1.5v-1" /><path d="m13.5 3.5 1-1" /><path d="m2.5 3.5 1-1" /><path d="m13.5 13.5 1-1" /><path d="m2.5 13.5 1-1" /><path d="m1.5 7.5h-1" /><path d="m16.5 7.5h-1" /></>)
     },
@@ -1364,7 +1364,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "lightning_alt"
+            "lightning alt"
         ],
         code: (<><path d="m5.5 6.5h5l-6 8.997v-5.997h-4l2-9h5z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
@@ -1382,25 +1382,25 @@ export const iconsdb = [
     },
     {
         names: [
-            "link_alt"
+            "link alt"
         ],
-        code: (<><path d="M1.38757706,5.69087183 C0.839076291,5.14050909 0.5,4.38129902 0.5,3.54289344 C0.5,1.8623496 1.8623496,0.5 3.542893,0.5 L8.457107,0.5 C10.1376504,0.5 11.5,1.86235004 11.5,3.54289344 C11.5,5.22343727 10.1376504,6.5 8.457107,6.5 L6,6.5" /><path d="M4.38757706,8.69087183 C3.83907629,8.14050909 3.5,7.38129902 3.5,6.54289344 C3.5,4.8623496 4.8623496,3.5 6.542893,3.5 L11.457107,3.5 C13.1376504,3.5 14.5,4.86235004 14.5,6.54289344 C14.5,8.22343727 13.1376504,9.5 11.457107,9.5 L9,9.5"/></>)
+        code: (<><path d="M1.38757706,5.69087183 C0.839076291,5.14050909 0.5,4.38129902 0.5,3.54289344 C0.5,1.8623496 1.8623496,0.5 3.542893,0.5 L8.457107,0.5 C10.1376504,0.5 11.5,1.86235004 11.5,3.54289344 C11.5,5.22343727 10.1376504,6.5 8.457107,6.5 L6,6.5" /><path d="M4.38757706,8.69087183 C3.83907629,8.14050909 3.5,7.38129902 3.5,6.54289344 C3.5,4.8623496 4.8623496,3.5 6.542893,3.5 L11.457107,3.5 C13.1376504,3.5 14.5,4.86235004 14.5,6.54289344 C14.5,8.22343727 13.1376504,9.5 11.457107,9.5 L9,9.5" /></>)
     },
     {
         names: [
-            "link_broken"
+            "link broken"
         ],
         code: (<><path d="m7.5 5.32842712 1-1c1.1045695-1.10456949 2.8954305-1.10456949 4 0 1.1045695 1.1045695 1.1045695 2.89543051 0 4l-1 1m-3.17157288 3.17157288-1 1c-1.10456949 1.1045695-2.8954305 1.1045695-4 0-1.10456949-1.1045695-1.10456949-2.8954305 0-4l1-1" /><path d="m5.5 3.5v-3" /><path d="m.5 5.5h3" /><path d="m11.5 16.5v-3" /><path d="m13.5 11.5h3" /></>)
     },
     {
         names: [
-            "link_horizontal"
+            "link horizontal"
         ],
         code: (<><path d="m5.5 8.5c-.39387503 0-.0547637 0-1 0-2.209139 0-4-1.790861-4-4s1.790861-4 4-4h1m4 0h1c2.209139 0 4 1.790861 4 4s-1.790861 4-4 4c-.88888889 0-.55555556 0-1 0" /><path d="m10.5 4.5h-6" /></>)
     },
     {
         names: [
-            "link_vertical"
+            "link vertical"
         ],
         code: (<><path d="m8.5 9.5v1c0 2.209139-1.790861 4-4 4s-4-1.790861-4-4c0-.92155 0-.61385143 0-1m0-4c0-.44444444 0-.11111111 0-1 0-2.209139 1.790861-4 4-4s4 1.790861 4 4v1" /><path d="m4.5 4.5v6" /></>)
     },
@@ -1412,13 +1412,13 @@ export const iconsdb = [
     },
     {
         names: [
-            "list_add"
+            "list add"
         ],
         code: (<><path d="m.5.5h12" /><path d="m.5 4.5h12" /><path d="m.5 8.5h7" /><path d="m9.5 8.5h4zm2 2v-4z" /></>)
     },
     {
         names: [
-            "list_numbered"
+            "list numbered"
         ],
         code: (<><path d="m11.5 5.5h-7" /><path d="m11.5 9.5h-7" /><path d="m11.5 1.5h-7" /><path d="m1.88 3v-2.172h-.037l-.68.459v-.617l.717-.488h.717v2.818z" fill="currentColor" /><path d="m.89941406 5.06835938c0-.57226563.45117188-.96289063 1.109375-.96289063.65234375 0 1.04101563.35351563 1.04101563.8359375 0 .33398437-.1484375.5546875-.59765625.9609375l-.5546875.50195313v.03710937h1.18554687v.55859375h-2.14257812v-.47851562l1.0078125-.91210938c.34765625-.31835938.40625-.43945312.40625-.60546875 0-.1953125-.13671875-.35742187-.3828125-.35742187-.26171875 0-.41601563.17773437-.41601563.421875zm.71289063 4.73046874v-.484375h.36132812c.23828125 0 .39257813-.13867187.39257813-.34179687 0-.19140625-.14648438-.33203125-.38867188-.33203125-.25390625 0-.40820312.13476562-.41992187.36328125h-.65234375c.00976562-.54101563.4375-.8984375 1.10742187-.8984375.66015625 0 1.02148438.34570313 1.01953125.765625 0 .33984375-.21875.56445313-.52734375.63671875v.03710938c.40625.05664062.640625.30859374.640625.67968752 0 .5039062-.48046875.8515625-1.15820312.8515625-.66992188 0-1.125-.3613281-1.15039063-.9160157h.68359375c.00976563.2167969.18554688.3515626.45703125.3515626.26171875 0 .43945313-.1425782.43945313-.3554688 0-.22265625-.16796875-.35742188-.44335938-.35742188z" fill="currentColor" /></>)
     },
@@ -1442,7 +1442,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "lock_open"
+            "lock open"
         ],
         code: (<><path d="m2.5 8.5-.00586729-1.99475098c-.00728549-4.00349935 1.32800361-6.00524902 4.00586729-6.00524902 2.19134421 0 3.6093703 1.31907891 4 4m-8 4h8.0225317c1.0543618 0 1.9181652.81587779 1.9945143 1.8507377l.0054778.1548972-.0169048 6c-.0031058 1.1023652-.8976224 1.9943651-1.999992 1.9943651h-8.005627c-1.1045695 0-2-.8954305-2-2v-6c0-1.1045695.8954305-2 2-2z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><circle cx="6.5" cy="13.5" fill="currentColor" r="1.5" /></>)
     },
@@ -1454,37 +1454,37 @@ export const iconsdb = [
     },
     {
         names: [
-            "mail_add"
+            "mail add"
         ],
         code: (<><path d="m10 2h-8c-1.1045695 0-2 .8954305-2 2v7c0 1.1045695.8954305 2 2 2h10c1.1045695 0 2-.8954305 2-2v-5" /><path d="m2 5 5 3 5-3" /><path d="m14 0v4" /><path d="m12 2h4" /></>)
     },
     {
         names: [
-            "mail_delete"
+            "mail delete"
         ],
         code: (<><path d="m6.00772212.56701593-5 2.85714286c-.62314999.35608571-1.00772212 1.01877259-1.00772212 1.73648628v6.83935493c0 1.1045695.8954305 2 2 2h10c1.1045695 0 2-.8954305 2-2v-6.83935493c0-.71771369-.3845721-1.38040057-1.0077221-1.73648628l-5.00000002-2.85714286c-.61486534-.35135162-1.36969042-.35135162-1.98455576 0z" /><path d="m10 5-6 6" /><path d="m4 5 6 6" /></>)
     },
     {
         names: [
-            "mail_minus"
+            "mail minus"
         ],
         code: (<><path d="m10 1h-8c-1.1045695 0-2 .8954305-2 2v7c0 1.1045695.8954305 2 2 2h10c1.1045695 0 2-.8954305 2-2v-7" /><path d="m2 4 5 3 5-3" /><path d="m12 1h4" /></>)
     },
     {
         names: [
-            "mail_new"
+            "mail new"
         ],
         code: (<><path d="m6.00772212.56701593-5 2.85714286c-.62314999.35608571-1.00772212 1.01877259-1.00772212 1.73648628v6.83935493c0 1.1045695.8954305 2 2 2h10c1.1045695 0 2-.8954305 2-2v-6.83935493c0-.71771369-.3845721-1.38040057-1.0077221-1.73648628l-5.00000002-2.85714286c-.61486534-.35135162-1.36969042-.35135162-1.98455576 0z" /><path d="m7 5v6" /><path d="m4 8h6" /></>)
     },
     {
         names: [
-            "mail_open"
+            "mail open"
         ],
         code: (<><path d="m0 4.31879232v7.68120768c0 1.1045695.8954305 2 2 2h10c1.1045695 0 2-.8954305 2-2v-7.68120768c0-.80005622-.4767937-1.52313248-1.2121614-1.83829006l-5-2.14285715c-.50309759-.21561325-1.07257961-.21561325-1.5756772 0l-5 2.14285715c-.73536769.31515758-1.2121614 1.03823384-1.2121614 1.83829006z" /><path d="m2 5 5 3 5-3" /></>)
     },
     {
         names: [
-            "mail_remove"
+            "mail remove"
         ],
         code: (<><path d="m6.00772212.56701593-5 2.85714286c-.62314999.35608571-1.00772212 1.01877259-1.00772212 1.73648628v6.83935493c0 1.1045695.8954305 2 2 2h10c1.1045695 0 2-.8954305 2-2v-6.83935493c0-.71771369-.3845721-1.38040057-1.0077221-1.73648628l-5.00000002-2.85714286c-.61486534-.35135162-1.36969042-.35135162-1.98455576 0z" /><path d="m4 8h6" /></>)
     },
@@ -1502,19 +1502,19 @@ export const iconsdb = [
     },
     {
         names: [
-            "menu_hamburger"
+            "menu hamburger"
         ],
         code: (<><path d="m4.5 6.5h12" /><path d="m4.498 10.5h11.997" /><path d="m4.5 14.5h11.995" /></>)
     },
     {
         names: [
-            "menu_horizontal"
+            "menu horizontal"
         ],
         code: (<><circle cx="10.5" cy="10.5" r="1" /><circle cx="5.5" cy="10.5" r="1" /><circle cx="15.5" cy="10.5" r="1" /></>)
     },
     {
         names: [
-            "menu_vertical"
+            "menu vertical"
         ],
         code: (<><circle cx="10.5" cy="10.5" r="1" /><circle cx="10.5" cy="5.5" r="1" /><circle cx="10.5" cy="15.5" r="1" /></>)
     },
@@ -1526,7 +1526,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "message_writing"
+            "message writing"
         ],
         code: (<> <path d="m14.5.5c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2l-2.999-.001-2.29389322 2.2938932c-.36048396.360484-.92771502.3882135-1.32000622.0831886l-.09420734-.0831886-2.29389322-2.2938932-2.999.001c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m8.49884033 8.5c.5 0 1-.5 1-1s-.5-1-1-1-.99884033.5-.99884033 1 .49884033 1 .99884033 1zm-4 0c.5 0 1-.5 1-1s-.5-1-1-1-.99884033.5-.99884033 1 .49884033 1 .99884033 1zm7.99999997 0c.5 0 1-.5 1-1s-.5-1-1-1-.9988403.5-.9988403 1 .4988403 1 .9988403 1z" fill="currentColor" /></>)
     },
@@ -1538,13 +1538,13 @@ export const iconsdb = [
     },
     {
         names: [
-            "microphone_disabled"
+            "microphone disabled"
         ],
         code: (<><path d="m12.5 7.5c0 .91813853-.2474698 1.7784774-.6793465 2.5179537m-1.4246464 1.5584561c-.81714521.5815728-1.81663493.9235902-2.8960071.9235902-2.76142375 0-5-2.2385763-5-5m2.19580617-4.95506382c.41696847-1.09403231 1.45627406-1.88418967 2.69335685-1.92992573l.11083698-.00409775c1.5967308-.05903257 2.9389922 1.18751813 2.9980248 2.78424894.0013167.0356141.0019752.07124949.0019752.10688793v3.99795043c0 .38785203-.0736015.75851351-.2075993 1.09877923" /><path d="m8.95666861 10.1232407c-.4313298.2400274-.92803148.3767593-1.45666861.3767593-1.65685425 0-3-1.34314575-3-3 0-.93326823 0-1.53336589 0-2" /><path d="m.5 1.5 14 14" /><path d="m7.5 12.5v4" /></>)
     },
     {
         names: [
-            "microphone_muted"
+            "microphone muted"
         ],
         code: (<><path d="m8.5 6 .00115967 1.5c-.21419271 2-1.21535238 3-3.00115967 3s-2.78464762-1-2.99884033-3l-.00115967-3.5c0-2 1.85706111-3.2309912 2.5-3.5" /><path d="m4.5 4.5-4-4z" /><path d="m10.5 7.5c0 2.7614237-2.23857625 5-5 5-2.6887547 0-4.88181811-2.1223067-4.99538049-4.78311038l-.00461951-.21688962" /><path d="m5.522 12.5v4" /></>)
     },
@@ -1562,7 +1562,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "mini_player"
+            "mini player"
         ],
         code: (<><path d="m2.5.5h10c1.1045695 0 2 .8954305 2 2v8c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2v-8c0-1.1045695.8954305-2 2-2z" /><path d="m9.5 6.5h2c.5522847 0 1 .44771525 1 1v2c0 .5522847-.4477153 1-1 1h-2c-.55228475 0-1-.4477153-1-1v-2c0-.55228475.44771525-1 1-1z" fill="currentColor" /></>)
     },
@@ -1574,7 +1574,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "minus_circle"
+            "minus circle"
         ],
         code: (<><path d="m8 16c4.4380025 0 8-3.5262833 8-7.96428571 0-4.43800246-3.5619975-8.03571429-8-8.03571429-4.43800245 0-8 3.59771183-8 8.03571429 0 4.43800241 3.56199755 7.96428571 8 7.96428571z" /><path d="m4 8h8" /></>)
     },
@@ -1610,7 +1610,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "no_sign"
+            "no sign"
         ],
         code: (<><circle cx="8.5" cy="8.5" r="8" /><path d="m3 3 11 11" /></>)
     },
@@ -1628,37 +1628,37 @@ export const iconsdb = [
     },
     {
         names: [
-            "panel_bottom"
+            "panel bottom"
         ],
         code: (<><path d="m2.5.5h10c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2z" /><path d="m3.5 12.5h8" /></>)
     },
     {
         names: [
-            "panel_center"
+            "panel center"
         ],
         code: (<><path d="m2.5.5h10c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2z" /><path d="m5.5 4.5h4c.5522847 0 1 .44771525 1 1v4c0 .5522847-.4477153 1-1 1h-4c-.55228475 0-1-.4477153-1-1v-4c0-.55228475.44771525-1 1-1z" /></>)
     },
     {
         names: [
-            "panel_left"
+            "panel left"
         ],
         code: (<><path d="m2.5.5h10c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2z" /><path d="m2.5 11.5v-8" /></>)
     },
     {
         names: [
-            "panel_right"
+            "panel right"
         ],
         code: (<><path d="m2.5.5h10c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2z" /><path d="m12.5 11.5v-8" /></>)
     },
     {
         names: [
-            "panel_sectioned"
+            "panel sectioned"
         ],
         code: (<><path d="m14.4978951 12.4978973-.0105089-9.99999996c-.0011648-1.10374784-.8962548-1.99789734-2-1.99789734h-9.99999995c-1.0543629 0-1.91816623.81587779-1.99451537 1.85073766l-.00548463.151365.0105133 10.00000004c.0011604 1.1037478.89625045 1.9978973 1.99999889 1.9978973h9.99999776c1.0543618 0 1.9181652-.8158778 1.9945143-1.8507377z" /><path d="m7.5.5v13.817" /><path d="m14.5 7.5h-14" /></>)
     },
     {
         names: [
-            "panel_top"
+            "panel top"
         ],
         code: (<><path d="m2.5.5h10c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2z" /><path d="m3.5 2.5h8" /></>)
     },
@@ -1676,67 +1676,67 @@ export const iconsdb = [
     },
     {
         names: [
-            "paper_folded"
+            "paper folded"
         ],
         code: (<><path d="m12.5 12.5v-7l-5-5h-5c-1.1045695 0-2 .8954305-2 2v10c0 1.1045695.8954305 2 2 2h8c1.1045695 0 2-.8954305 2-2z" /><path d="m7.5.5v3c0 1.1045695.8954305 2 2 2h3" /></>)
     },
     {
         names: [
-            "paper_plane"
+            "paper plane"
         ],
         code: (<><path d="m.5 7 16-6.535-2.8 14.535z" /><path d="m16.5.5-11 10" /><path d="m5.5 10.5v5l3-3" /></>)
     },
     {
         names: [
-            "paper_plane_alt"
+            "paper plane alt"
         ],
         code: (<><path d="m15.5.465-8 8.033" /><path d="m10.5 16.5-3-8.002-7-2.998 15-5z" /></>)
     },
     {
         names: [
-            "paragraph_center"
+            "paragraph center"
         ],
         code: (<><path d="m4.5 6.5h12" /><path d="m7.498 10.5h5.997" /><path d="m5.5 14.5h9.995" /></>)
     },
     {
         names: [
-            "paragraph_end"
+            "paragraph end"
         ],
         code: (<><path d="m3.5 5.5h13.978" /><path d="m3.5 7.5h13.978" /><path d="m3.5 9.5h13.978" /><path d="m3.5 11.5h13.978" /><path d="m3.5 13.5h13.978" /><path d="m3.5 15.5h7" /></>)
     },
     {
         names: [
-            "paragraph_left"
+            "paragraph left"
         ],
         code: (<><path d="m4.5 6.5h12" /><path d="m4.498 10.5h5.997" /><path d="m4.5 14.5h9.995" /></>)
     },
     {
         names: [
-            "paragraph_right"
+            "paragraph right"
         ],
         code: (<><path d="m4.5 6.5h12" /><path d="m10.498 10.5h5.997" /><path d="m6.5 14.5h9.995" /></>)
     },
     {
         names: [
-            "paragraph_start"
+            "paragraph start"
         ],
         code: (<><path d="m3.5 7.5h13.978" /><path d="m3.5 9.5h13.978" /><path d="m3.5 11.5h13.978" /><path d="m3.5 5.5h7" /><path d="m3.5 13.5h13.978" /><path d="m3.5 15.5h13.978" /></>)
     },
     {
         names: [
-            "pen"
+            "pen write read study art design handwriting"
         ],
         code: (<><path d="m14 1c.8284271.82842712.8284271 2.17157288 0 3l-9.5 9.5-4 1 1-3.9436508 9.5038371-9.55252193c.7829896-.78700064 2.0312313-.82943964 2.864366-.12506788z" /><path d="m12.5 3.5 1 1" /></>)
     },
     {
         names: [
-            "phone_landscape"
+            "phone landscape portrait call mobile telephone screen"
         ],
         code: (<><path d="m2.52487173.5h5.97512827c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2h-5.99966647c-1.05436781 0-1.91817114-.8158778-1.99452028-1.8507377l-.00547971-.1541711.02454421-10.00000003c.00270637-1.10264965.89734101-1.99509117 1.99999398-1.99509117z" /><path d="m7.5 12.5h-4" /></>)
     },
     {
         names: [
-            "phone_portrait"
+            "phone portrait call mobile telephone screen"
         ],
         code: (<><path d="m2.5.5h6c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2h-6c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2z" /><path d="m3.5 12.5h4" /></>)
     },
@@ -1748,19 +1748,19 @@ export const iconsdb = [
     },
     {
         names: [
-            "pie_half"
+            "pie half"
         ],
         code: (<><path d="m6.518813.74721736c-3.4599961.88152537-6.018813 4.01833215-6.018813 7.75278264 0 3.7184732 2.53696873 6.8444056 5.97445344 7.7413445m10.02554656-7.7413445c0 4.418278-3.581722 8-8 8v-16c4.418278 0 8 3.581722 8 8z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "pie_quarter"
+            "pie quarter"
         ],
         code: (<><path d="m6.518813.74721736c-3.4599961.88152537-6.018813 4.01833215-6.018813 7.75278264 0 4.418278 3.581722 8 8 8 3.6942119 0 6.8035899-2.5039716 7.723504-5.9072849" /><path d="m16.5 8.5c0-4.418278-3.581722-8-8-8v8z" /></>)
     },
     {
         names: [
-            "pie_third"
+            "pie third"
         ],
         code: (<><path d="m6.518813.74721736c-2.85207705.72664194-5.09182846 2.98568348-5.79082981 5.84870021m7.77201681-6.09591757c4.418278 0 8 3.581722 8 8s-3.581722 8-8 8-8-3.5-8-8h8c0-1.77777778 0-4.44444444 0-8z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
@@ -1772,7 +1772,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "play_button"
+            "play button"
         ],
         code: (<><path d="m2.49368982.53498937 11.99999998-.03787142c1.0543566-.00331643 1.9207298.80983192 2.0003436 1.84444575l.0059666.15555425v6.00288205c0 1.1045695-.8954305 2-2 2h-12c-1.1045695 0-2-.8954305-2-2v-5.96502059c0-1.10210602.89158929-1.9965128 1.99368982-1.99999004z" /><path d="m7.5 7.5 3-2-3-2z" fill="currentColor" /></>)
     },
@@ -1784,7 +1784,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "plus_circle"
+            "plus circle"
         ],
         code: (<><path d="m8 16c4.4380025 0 8-3.5262833 8-7.96428571 0-4.43800246-3.5619975-8.03571429-8-8.03571429-4.43800245 0-8 3.59771183-8 8.03571429 0 4.43800241 3.56199755 7.96428571 8 7.96428571z" /><path d="m4 8h8" /><path d="m8 12.0563492v-8.0563492z" /></>)
     },
@@ -1808,61 +1808,61 @@ export const iconsdb = [
     },
     {
         names: [
-            "pull_down"
+            "pull down"
         ],
         code: (<><path d="m3.5 10.5 4 4 4-4" /><path d="m7.5 3.5v11" /><path d="m.5.5h14" /></>)
     },
     {
         names: [
-            "pull_left"
+            "pull left"
         ],
         code: (<><path d="m7.328 4.672v5.656h-5.656" /><path d="m11.5 7.5h-11" /> <path d="m14.5.5v14" /></>)
     },
     {
         names: [
-            "pull_right"
+            "pull right"
         ],
         code: (<><path d="m11 4-4-4-4 4" /><path d="m7 0v11" /><path d="m0 14h14" /></>)
     },
     {
         names: [
-            "pull_up"
+            "pull up"
         ],
         code: (<><path d="m3.5 4.753 4-4.253 4 4.212" /><path d="m7.5.5v11" /><path d="m.5 14.5h14" /></>)
     },
     {
         names: [
-            "push_down"
+            "push down"
         ],
         code: (<><path d="m3.5 7.5 4 4 4-4" /><path d="m7.5.5v11" /><path d="m.5 14.5h14" /></>)
     },
     {
         names: [
-            "push_left"
+            "push left"
         ],
         code: (<><path d="m3 7 4 4 4-4" /><path d="m7 0v11" /><path d="m0 14h14" /></>)
     },
     {
         names: [
-            "push_right"
+            "push right"
         ],
         code: (<><path d="m5.5 9.5 4-4 4 4" /><path d="m11.5 7.5h-11" /> <path d="m14.5.5v14" /></>)
     },
     {
         names: [
-            "push_up"
+            "push up"
         ],
         code: (<><path d="m3.5 7.5 4-4 4 4" /><path d="m7.5 3.5v11" /><path d="m.5.5h14" /></>)
     },
     {
         names: [
-            "question_circle"
+            "question circle"
         ],
         code: (<> <circle cx="8.5" cy="8.5" r="8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m8.5 9.5v-1l1.41421356-1.41421356c.37507274-.37507276.58578644-.88378059.58578644-1.41421356v-.17157288c0-.61286606-.3462631-1.17313156-.89442719-1.4472136l-.21114562-.1055728c-.56305498-.2815275-1.2257994-.2815275-1.78885438 0l-.10557281.0527864c-.61286606.30643303-1 .9328289-1 1.61803399v.88196601" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><circle cx="8.5" cy="12.5" fill="currentColor" r="1" /></>)
     },
     {
         names: [
-            "radio_on"
+            "radio on"
         ],
         code: (<><circle cx="10.5" cy="10.5" r="8" /><circle cx="10.5" cy="10.5" fill="currentColor" r="5" /></>)
     },
@@ -1892,7 +1892,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "refresh_alt"
+            "refresh alt"
         ],
         code: (<><path d="m1.5 5.5c1.37786776-2.41169541 4.02354835-4 7-4 4.418278 0 8 3.581722 8 8m-1 4c-1.4081018 2.2866288-4.1175492 4-7 4-4.418278 0-8-3.581722-8-8" /><path d="m6.5 5.5h-5v-5" /><path d="m10.5 13.5h5v5" /></>)
     },
@@ -1904,7 +1904,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "replicate_alt"
+            "replicate alt"
         ],
         code: (<><path d="m14.5 9.5v-7c0-1.1045695-.8954305-2-2-2h-7c-1.1045695 0-2 .8954305-2 2v7c0 1.1045695.8954305 2 2 2h7c1.1045695 0 2-.8954305 2-2z" /><path d="m11.5 11.5v1c0 1.1045695-.8954305 2-2 2h-7c-1.1045695 0-2-.8954305-2-2v-7c0-1.1045695.8954305-2 2-2h1" /></>)
     },
@@ -1912,35 +1912,35 @@ export const iconsdb = [
         names: [
             "reset"
         ],
-        code: (<><path d="m3.98652376 1.07807068c-2.38377179 1.38514556-3.98652376 3.96636605-3.98652376 6.92192932 0 4.418278 3.581722 8 8 8s8-3.581722 8-8-3.581722-8-8-8" /><path d="m4 1v4h-4"/></>)
+        code: (<><path d="m3.98652376 1.07807068c-2.38377179 1.38514556-3.98652376 3.96636605-3.98652376 6.92192932 0 4.418278 3.581722 8 8 8s8-3.581722 8-8-3.581722-8-8-8" /><path d="m4 1v4h-4" /></>)
     },
     {
         names: [
-            "reset_alt"
+            "reset alt"
         ],
         code: (<><path d="m12.5 1.5c2.4138473 1.37729434 4 4.02194088 4 7 0 4.418278-3.581722 8-8 8s-8-3.581722-8-8 3.581722-8 8-8" /><path d="m12.5 5.5v-4h4" /></>)
     },
     {
         names: [
-            "reset_forward"
+            "reset forward"
         ],
         code: (<><path d="m4.5 1.5c-2.4138473 1.37729434-4 4.02194088-4 7 0 4.418278 3.581722 8 8 8s8-3.581722 8-8-3.581722-8-8-8" /><path d="m4.5 5.5v-4h-4" /></>)
     },
     {
         names: [
-            "reset_hard"
+            "reset hard"
         ],
-        code: (<><path d="m13 11 3 3v-6c0-3.36502327-2.0776-6.24479706-5.0200433-7.42656457-.9209869-.36989409-1.92670197-.57343543-2.9799567-.57343543-4.418278 0-8 3.581722-8 8s3.581722 8 8 8c1.48966767 0 3.4724708-.3698516 5.0913668-1.5380762"/><path d="m5 5 6 6" /><path d="m11 5-6 6" /></>)
+        code: (<><path d="m13 11 3 3v-6c0-3.36502327-2.0776-6.24479706-5.0200433-7.42656457-.9209869-.36989409-1.92670197-.57343543-2.9799567-.57343543-4.418278 0-8 3.581722-8 8s3.581722 8 8 8c1.48966767 0 3.4724708-.3698516 5.0913668-1.5380762" /><path d="m5 5 6 6" /><path d="m11 5-6 6" /></>)
     },
     {
         names: [
-            "reset_temporary"
+            "reset temporary reload delete all clean refactor"
         ],
         code: (<><path d="m3.98652376 1.07807068c-2.38377179 1.38514556-3.98652376 3.96636605-3.98652376 6.92192932 0 4.418278 3.581722 8 8 8s8-3.581722 8-8-3.581722-8-8-8" /><circle cx="8" cy="8" fill="currentColor" r="2" /><path d="m4 1v4h-4" /></>)
     },
     {
         names: [
-            "retweet"
+            "retweet "
         ],
         code: (<><path d="m12.5 9.5 3 3 3-3" /><path d="m8.5.5h3c2.209139 0 4 1.790861 4 4v8" /><path d="m6.5 3.5-3-3-3 3" /><path d="m10.5 12.5h-3c-2.209139 0-4-1.790861-4-4v-8" /></>)
     },
@@ -1958,7 +1958,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "reverse_alt"
+            "reverse alt"
         ],
         code: (<><path d="m6.5 6.5-4 4 4 4" /><path d="m14.5 10.5h-12" /><path d="m8.5.5 4 4-4 4" /><path d="m12.5 4.5h-12" /></>)
     },
@@ -1984,17 +1984,17 @@ export const iconsdb = [
         names: [
             "scale"
         ],
-        code: (<><path d="m14.5 4.5v-4h-4" /><path d="m6.5 4.5v4h4" /><path d="m10.5-1.157v11.314"  /> <path d="m8.5.5h-6c-1.1045695 0-2 .8954305-2 2v10c0 1.1045695.8954305 2 2 2h10c1.1045695 0 2-.8954305 2-2v-6" /></>)
+        code: (<><path d="m14.5 4.5v-4h-4" /><path d="m6.5 4.5v4h4" /><path d="m10.5-1.157v11.314" /> <path d="m8.5.5h-6c-1.1045695 0-2 .8954305-2 2v10c0 1.1045695.8954305 2 2 2h10c1.1045695 0 2-.8954305 2-2v-6" /></>)
     },
     {
         names: [
-            "scale_contract"
+            "scale contract"
         ],
         code: (<><path d="m10.5 4.5-4 .022v-4.022" /><path d="m4.5 10.523v-4l-4-.023" /></>)
     },
     {
         names: [
-            "scale_extend"
+            "scale extend"
         ],
         code: (<><path d="m10.5 4.5v-3.978l-4-.022" /><path d="m4.5 10.523h-4v-4.023" /></>)
     },
@@ -2002,7 +2002,7 @@ export const iconsdb = [
         names: [
             "scalpel"
         ],
-        code: (<><path d="m6 10 7-7c.5522847-.55228475.5522847-1.44771525 0-2s-1.4477153-.55228475-2 0l-10.5 10.5h7l-3.5-3.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></>)
+        code: (<><path d="m6 10 7-7c.5522847-.55228475.5522847-1.44771525 0-2s-1.4477153-.55228475-2 0l-10.5 10.5h7l-3.5-3.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
@@ -2030,7 +2030,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "share_alt"
+            "share alt"
         ],
         code: (<><path d="m8.5 2.5-1.978-2-2.022 2" /><path d="m6.5.5v9" /><path d="m3.5 4.5h-1c-1.1045695 0-2 .8954305-2 2v7c0 1.1045695.8954305 2 2 2h8c1.1045695 0 2-.8954305 2-2v-7c0-1.1045695-.8954305-2-2-2h-1" /></>)
     },
@@ -2042,43 +2042,43 @@ export const iconsdb = [
     },
     {
         names: [
-            "side_menu"
+            "side menu"
         ],
         code: (<><path d="m4.5 1.5h8" /><path d="m4.5 5.498h5" /><path d="m4.5 9.5h8" /><path d="m1.49884033 2.5c.5 0 1-.5 1-1s-.5-1-1-1-.99884033.5-.99884033 1 .49884033 1 .99884033 1zm0 4c.5 0 1-.5 1-1s-.5-1-1-1-.99884033.5-.99884033 1 .49884033 1 .99884033 1zm0 4c.5 0 1-.5 1-1s-.5-1-1-1-.99884033.5-.99884033 1 .49884033 1 .99884033 1z" fill="currentColor" /></>)
     },
     {
         names: [
-            "signal_full"
+            "signal full"
         ],
         code: (<><path d="M5.5 16.5v-3a1 1 0 112 0v3a1 1 0 01-2 0zM9.5 16.5v-6a1 1 0 112 0v6a1 1 0 01-2 0zM13.5 16.5v-9a1 1 0 112 0v9a1 1 0 01-2 0z" /></>)
     },
     {
         names: [
-            "signal_low"
+            "signal low"
         ],
         code: (<><path d="M5.5 16.5v-3a1 1 0 112 0v3a1 1 0 01-2 0z" fill="currentColor" /><path d="M9.5 16.5v-6a1 1 0 112 0v6a1 1 0 01-2 0zM13.5 16.5v-9a1 1 0 112 0v9a1 1 0 01-2 0z" /></>)
     },
     {
         names: [
-            "signal_medium"
+            "signal medium"
         ],
         code: (<><path d="M5.5 16.5v-3a1 1 0 112 0v3a1 1 0 01-2 0zM9.5 16.5v-6a1 1 0 112 0v6a1 1 0 01-2 0z" fill="currentColor" /><path d="M13.5 16.5v-9a1 1 0 112 0v9a1 1 0 01-2 0z" /></>)
     },
     {
         names: [
-            "signal_none"
+            "signal none"
         ],
         code: (<><path d="M5.5 16.5v-3a1 1 0 112 0v3a1 1 0 01-2 0zM9.5 16.5v-6a1 1 0 112 0v6a1 1 0 01-2 0zM13.5 16.5v-9a1 1 0 112 0v9a1 1 0 01-2 0z" /></>)
     },
     {
         names: [
-            "slash_backward"
+            "slash backward"
         ],
         code: (<><path d="m4.5.5-4 14" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "slash_forward"
+            "slash forward"
         ],
         code: (<><path d="m12.5 3.5-4 14" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
@@ -2096,7 +2096,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "sort_alt"
+            "sort alt"
         ],
         code: (<><path d="m16 10-4-4-4 4" /><path d="m12 0v10" /><path d="m0 6 4 4.044 4-4.044" /><path d="m4 6v10" /></>)
     },
@@ -2108,13 +2108,13 @@ export const iconsdb = [
     },
     {
         names: [
-            "speech_bubble"
+            "speech bubble"
         ],
         code: (<><path d="m8 13.5172414c4.418278 0 8-3.2845583 8-7.0172414 0-3.73268314-3.581722-6.5-8-6.5s-8 3.02593755-8 6.75862069c0 1.45741942.5460328 2.80709561 1.47469581 3.91098161l-.97469581 4.5803977 3.91607376-2.4472652c1.07810761.4571647 2.29544433.7145066 3.58392624.7145066z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "speech_typing"
+            "speech typing"
         ],
         code: (<><path d="m8 13.5172414c4.418278 0 8-3.0259376 8-6.75862071 0-3.73268314-3.581722-6.75862069-8-6.75862069s-8 3.02593755-8 6.75862069c0 1.45741942.5460328 2.80709561 1.47469581 3.91098161l-.97469581 4.5803977 3.91607376-2.4472652c1.07810761.4571647 2.29544433.7145066 3.58392624.7145066z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m7.99884033 8c.5 0 1-.5 1-1s-.5-1-1-1-.99884033.5-.99884033 1 .49884033 1 .99884033 1zm-4 0c.5 0 1-.5 1-1s-.5-1-1-1-.99884033.5-.99884033 1 .49884033 1 .99884033 1zm8.00057947 0c.5002901 0 1.0005802-.5 1.0005802-1s-.5002901-1-1.0005802-1-.9994198.5-.9994198 1 .4991297 1 .9994198 1z" fill="currentColor" /></>)
     },
@@ -2126,7 +2126,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "split_three"
+            "split three"
         ],
         code: (<><path d="m14.5.5h-12.00000001c-1.1045695 0-2 .8954305-2 2v6c0 1.1045695.8954305 2 2 2h12.00000001c1.1045695 0 2-.8954305 2-2v-6c0-1.1045695-.8954305-2-2-2z" /><path d="m5.5.5v10" /><path d="m11.5.5v10" /></>)
     },
@@ -2162,9 +2162,9 @@ export const iconsdb = [
     },
     {
         names: [
-            "table_header"
+            "table header"
         ],
-        code: (<><path d="m14.4978951 12.4978973-.0105089-9.99999996c-.0011648-1.10374784-.8962548-1.99789734-2-1.99789734h-9.99999995c-1.0543629 0-1.91816623.81587779-1.99451537 1.85073766l-.00548463.151365.0105133 10.00000004c.0011604 1.1037478.89625045 1.9978973 1.99999889 1.9978973h9.99999776c1.0543618 0 1.9181652-.8158778 1.9945143-1.8507377z" /><path d="m4.5 4.5v9.817" /><path d="m7-2v14"/></>)
+        code: (<><path d="m14.4978951 12.4978973-.0105089-9.99999996c-.0011648-1.10374784-.8962548-1.99789734-2-1.99789734h-9.99999995c-1.0543629 0-1.91816623.81587779-1.99451537 1.85073766l-.00548463.151365.0105133 10.00000004c.0011604 1.1037478.89625045 1.9978973 1.99999889 1.9978973h9.99999776c1.0543618 0 1.9181652-.8158778 1.9945143-1.8507377z" /><path d="m4.5 4.5v9.817" /><path d="m7-2v14" /></>)
     },
     {
         names: [
@@ -2180,7 +2180,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "tag_milestone"
+            "tag milestone"
         ],
         code: (<><path d="m.5 6.22409987v6.27590013c0 1.1045695.8954305 2 2 2h6c1.1045695 0 2-.8954305 2-2v-6.27590013c0-.46787301-.1640324-.9209388-.4635574-1.2803688l-3.76822132-4.52186553c-.35356408-.4242769-.98412878-.48160097-1.40840568-.12803688-.04646306.03871922-.08931766.08157381-.12803688.12803688l-3.76822128 4.52186553c-.299525.35943-.46355744.81249579-.46355744 1.2803688z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
@@ -2204,13 +2204,13 @@ export const iconsdb = [
     },
     {
         names: [
-            "thumbs_down"
+            "thumbs down"
         ],
         code: (<><path d="m11.6427217 13.7567397-3.14377399-1.2567396h-4v-7.00000002h2l2.80105246-5.5c.57989907 0 1.07487363.2050252 1.48492373.61507546.4100508.41005058.6150761.90502516.6150755 1.48492425l-.8999994 2.40000029 4.0310597 1.34368655c.9979872.33266243 1.5591794 1.37584131 1.3086286 2.37964122l-.0684258.21997226-1.5536355 4.14302809c-.3878403 1.0342407-1.5406646 1.5582517-2.5749053 1.1704115z" /><path d="m1.5 4.5h2c.55228475 0 1 .44771525 1 1v8c0 .5522847-.44771525 1-1 1h-2c-.55228475 0-1-.4477153-1-1v-8c0-.55228475.44771525-1 1-1z" /></>)
     },
     {
         names: [
-            "thumbs_up"
+            "thumbs up"
         ],
         code: (<><path d="m11.6427217 13.7567397-3.14377399-1.2567396h-4v-7.00000002h2l2.80105246-5.5c.57989907 0 1.07487363.2050252 1.48492373.61507546.4100508.41005058.6150761.90502516.6150755 1.48492425l-.8999994 2.40000029 4.0310597 1.34368655c.9979872.33266243 1.5591794 1.37584131 1.3086286 2.37964122l-.0684258.21997226-1.5536355 4.14302809c-.3878403 1.0342407-1.5406646 1.5582517-2.5749053 1.1704115z" /><path d="m1.5 4.5h2c.55228475 0 1 .44771525 1 1v8c0 .5522847-.44771525 1-1 1h-2c-.55228475 0-1-.4477153-1-1v-8c0-.55228475.44771525-1 1-1z" /></>)
     },
@@ -2248,7 +2248,7 @@ export const iconsdb = [
         names: [
             "translate"
         ],
-        code: (<><path d="m16.5 8.5v-6c0-1.1045695-.8954305-2-2-2h-6c-1.1045695 0-2 .8954305-2 2v6c0 1.1045695.8954305 2 2 2h6c1.1045695 0 2-.8954305 2-2z" /><path d="m4.5 6.50344846h-2.00001427c-1.1045695 0-2 .8954305-2 2v5.99943324c0 1.1045695.8954305 2 2 2h.00345627l6.00001428-.0103718c1.10321833-.0019065 1.99654372-.8967771 1.99654372-1.999997v-1.9925129" /><path d="m4.49841597 2.5c-.33333333.33333333-.66666667.66666667-1 1s-1.16666667.83333333-2.5 1.5" /><path d="m.99841597 1.00316806c.33333333 1.16613866.83333333 1.99894398 1.5 2.49841597s1.5.99894398 2.5 1.49841597" /><path d="m3 0-3 6" /><path d="m3 0 3 6" /><path d="m3 2v4"/></>)
+        code: (<><path d="m16.5 8.5v-6c0-1.1045695-.8954305-2-2-2h-6c-1.1045695 0-2 .8954305-2 2v6c0 1.1045695.8954305 2 2 2h6c1.1045695 0 2-.8954305 2-2z" /><path d="m4.5 6.50344846h-2.00001427c-1.1045695 0-2 .8954305-2 2v5.99943324c0 1.1045695.8954305 2 2 2h.00345627l6.00001428-.0103718c1.10321833-.0019065 1.99654372-.8967771 1.99654372-1.999997v-1.9925129" /><path d="m4.49841597 2.5c-.33333333.33333333-.66666667.66666667-1 1s-1.16666667.83333333-2.5 1.5" /><path d="m.99841597 1.00316806c.33333333 1.16613866.83333333 1.99894398 1.5 2.49841597s1.5.99894398 2.5 1.49841597" /><path d="m3 0-3 6" /><path d="m3 0 3 6" /><path d="m3 2v4" /></>)
     },
     {
         names: [
@@ -2258,7 +2258,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "trash_alt"
+            "trash alt"
         ],
         code: (<><path d="m3.04312645.77339244c1.30458237-.50251803 2.79020688-.75708722 4.45687355-.76370756 1.66666667-.00645659 3.1522912.2481126 4.4568735.76370756 1.4533332.41523806 2.3707846 1.84683012 2.1409518 3.3407434l-1.0760143 6.99409286c-.3002042 1.9513268-1.9792025 3.3917713-3.95348683 3.3917713h-3.13664834c-1.97428433 0-3.65328268-1.4404445-3.95348679-3.3917713l-1.0760143-6.99409286c-.22983281-1.49391328.68761852-2.92550534 2.14095171-3.3407434z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m7.5 6c3.5555556 0 5-1.5 5-2.5s-1.4444444-2.25-5-2.25c-3.55555556 0-5 1.25-5 2.25s1.44444444 2.5 5 2.5z" fill="currentColor" /></>)
     },
@@ -2270,7 +2270,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "tv_mode"
+            "tv mode"
         ],
         code: (<> <path d="m2.49278838.53409401 10.00000002-.03605833c1.1045623-.00398287 2.0032157.88821306 2.0071986 1.99277538.0000087.00240386.000013.00480774.000013.00721162v5.00197732c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2v-4.965919c0-1.10175423.89104131-1.99601428 1.99278838-1.99998699z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m9.46666667 4.6-2.66666667-2c-.2209139-.16568542-.53431458-.1209139-.7.1-.06491106.08654809-.1.19181489-.1.3v4c0 .27614237.22385763.5.5.5.10818511 0 .21345191-.03508894.3-.1l2.66666667-2c.2209139-.16568542.26568542-.4790861.1-.7-.02842713-.03790283-.06209717-.07157288-.1-.1z" fill="currentColor" fill-rule="nonzero" /><path d="m2.464 11.5h10.036" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
@@ -2288,21 +2288,21 @@ export const iconsdb = [
     },
     {
         names: [
-            "undo_history"
+            "undo history"
         ],
         code: (<><path d="m8.54949429 2.5c-2.77910025-.01404818-5.48733216 1.42226095-6.97636172 4.0013358-2.209139 3.826341-.89813776 8.7190642 2.92820323 10.9282032s8.7190642.8981378 10.9282032-2.9282032.8981378-8.71906423-2.9282032-10.92820323" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m11.5 2.5-3 2.5v-5z" fill="currentColor" fill-rule="nonzero" /><path d="m4.5 10.5h5v3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "unlink_horizontal"
+            "unlink horizontal"
         ],
         code: (<><path d="m5.5 8.5c-.39387503 0-.0547637 0-1 0-2.209139 0-4-1.790861-4-4s1.790861-4 4-4h1m4 0h1c2.209139 0 4 1.790861 4 4s-1.790861 4-4 4c-.88888889 0-.55555556 0-1 0" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "unlink_vertical"
+            "unlink vertical"
         ],
-        code: (<><path d="m8.5 9.5v1c0 2.209139-1.790861 4-4 4s-4-1.790861-4-4c0-.92155 0-.61385143 0-1m0-4c0-.44444444 0-.11111111 0-1 0-2.209139 1.790861-4 4-4s4 1.790861 4 4v1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></>)
+        code: (<><path d="m8.5 9.5v1c0 2.209139-1.790861 4-4 4s-4-1.790861-4-4c0-.92155 0-.61385143 0-1m0-4c0-.44444444 0-.11111111 0-1 0-2.209139 1.790861-4 4-4s4 1.790861 4 4v1" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
@@ -2312,7 +2312,7 @@ export const iconsdb = [
     },
     {
         names: [
-            "upload_alt"
+            "upload alt"
         ],
         code: (<><path d="m11.5 4.5-3.978-4-4.022 4" /><path d="m7.522.521v11.979" /><path d="m.5 9v4.5c0 1.1045695.8954305 2 2 2h10c1.1045695 0 2-.8954305 2-2v-4.5" /></>)
     },
@@ -2336,31 +2336,31 @@ export const iconsdb = [
     },
     {
         names: [
-            "user_add"
+            "user add"
         ],
         code: (<><path d="m7.5.5c1.65685425 0 3 1.34314575 3 3v2c0 1.65685425-1.34314575 3-3 3s-3-1.34314575-3-3v-2c0-1.65685425 1.34314575-3 3-3z" /><path d="m14.5 2.5v4" /><path d="m16.5 4.5h-4" /><path d="m14.5 14.5v-.7281753c0-3.1864098-3.6862915-5.2718247-7-5.2718247s-7 2.0854149-7 5.2718247v.7281753c0 .5522847.44771525 1 1 1h12c.5522847 0 1-.4477153 1-1z" /></>)
     },
     {
         names: [
-            "user_circle"
+            "user circle"
         ],
         code: (<><circle cx="8.5" cy="8.5" r="8" stroke-linecap="round" /><path d="m9.5 4.5 2 2v1c0 1.65685425-1.3431458 3-3 3-1.65685425 0-3-1.34314575-3-3v-1z" stroke-linecap="round" /><path d="m3.5 12v-4.5c0-2.76142375 2.23857625-5 5-5 2.7614237 0 5 2.23857625 5 5v4.5" /><path d="m14.5 13.4041808c-.6615287-2.2735218-3.1995581-2.9293071-6-2.9293071-2.72749327 0-5.27073171.77299-6 2.9293071" stroke-linecap="round" /></>)
     },
     {
         names: [
-            "user_male"
+            "user male"
         ],
         code: (<><path d="m7.5.5c1.65685425 0 3 1.34314575 3 3v2c0 1.65685425-1.34314575 3-3 3s-3-1.34314575-3-3v-2c0-1.65685425 1.34314575-3 3-3zm7 14v-.7281753c0-3.1864098-3.6862915-5.2718247-7-5.2718247s-7 2.0854149-7 5.2718247v.7281753c0 .5522847.44771525 1 1 1h12c.5522847 0 1-.4477153 1-1z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "user_male_circle"
+            "user male circle"
         ],
         code: (<><circle cx="8.5" cy="8.5" r="8" /><path d="m14.5 13.5c-.6615287-2.2735217-3.1995581-3.0251263-6-3.0251263-2.72749327 0-5.27073171.8688092-6 3.0251263" /><path d="m8.5 2.5c1.6568542 0 3 1.34314575 3 3v2c0 1.65685425-1.3431458 3-3 3-1.65685425 0-3-1.34314575-3-3v-2c0-1.65685425 1.34314575-3 3-3z" /></>)
     },
     {
         names: [
-            "user_remove"
+            "user remove"
         ],
         code: (<><path d="m7.5.5c1.65685425 0 3 1.34314575 3 3v2c0 1.65685425-1.34314575 3-3 3s-3-1.34314575-3-3v-2c0-1.65685425 1.34314575-3 3-3z" /><path d="m16.5 4.5h-4" /><path d="m14.5 14.5v-.7281753c0-3.1864098-3.6862915-5.2718247-7-5.2718247s-7 2.0854149-7 5.2718247v.7281753c0 .5522847.44771525 1 1 1h12c.5522847 0 1-.4477153 1-1z" /></>)
     },
@@ -2390,43 +2390,43 @@ export const iconsdb = [
     },
     {
         names: [
-            "volume_0"
+            "volume 0"
         ],
         code: (<><path d="m1.5 5.5h3l5-5v16l-5-5h-3c-.55228475 0-1-.4477153-1-1v-4c0-.55228475.44771525-1 1-1z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /></>)
     },
     {
         names: [
-            "volume_add"
+            "volume add"
         ],
         code: (<><path d="m1.5 5.5h3l5-5v16l-5-5h-3c-.55228475 0-1-.4477153-1-1v-4c0-.55228475.44771525-1 1-1z" /><path d="m11.5 8.5h4" /><path d="m14.9142136 9.91421356-2.8284272-2.82842712z" /></>)
     },
     {
         names: [
-            "volume_disabled"
+            "volume disabled"
         ],
         code: (<><path d="m9.5 7.5v9l-5-5h-3c-.55228475 0-1-.4477153-1-1v-4c0-.55228475.44771525-1 1-1h3l1.5-1.5" /><path d="m7.521 2.479 1.979-1.979v5" /><path d="m3.5 1.5 12 12" /><path d="m11.5 6.5v1" /><path d="m13.7200616 11.7079223c-.3369299.4755068-1.0769504 1.0728661-2.2200616 1.7920777" /><path d="m11.5 9.5v1" /><path d="m14.5 10c0-.69729457 0-1.19729457 0-1.5 0-1.82842712-.8333333-3.32842712-2.5-4.5" /></>)
     },
     {
         names: [
-            "volume_high"
+            "volume high"
         ],
         code: (<><path d="m1.5 5.5h3l5-5v16l-5-5h-3c-.55228475 0-1-.4477153-1-1v-4c0-.55228475.44771525-1 1-1zm10 8c1.3333333-1 2-2.6666667 2-5 0-2.33333333-.6666667-4-2-5" /><path d="m11.5 6.5v4" /></>)
     },
     {
         names: [
-            "volume_low"
+            "volume low"
         ],
         code: (<><path d="m1.5 5.5h3l5-5v16l-5-5h-3c-.55228475 0-1-.4477153-1-1v-4c0-.55228475.44771525-1 1-1z" /><path d="m11.5 6.5v4" /></>)
     },
     {
         names: [
-            "volume_minus"
+            "volume minus"
         ],
         code: (<><path d="m1.5 5.5h3l5-5v16l-5-5h-3c-.55228475 0-1-.4477153-1-1v-4c0-.55228475.44771525-1 1-1z" /><path d="m11.5 8.5h4" /></>)
     },
     {
         names: [
-            "volume_muted"
+            "volume muted"
         ],
         code: (<><path d="m1.5 5.5h3l5-5v16l-5-5h-3c-.55228475 0-1-.4477153-1-1v-4c0-.55228475.44771525-1 1-1z" /><path d="m11.5 6.5 4 4" /><path d="m15.5 10.5-4-4z" /></>)
     },
@@ -2438,19 +2438,19 @@ export const iconsdb = [
     },
     {
         names: [
-            "warning_circle"
+            "warning circle"
         ],
         code: (<><circle cx="10.5" cy="10.5" r="8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m10.5 11.5v-5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><circle cx="10.5" cy="14.5" fill="currentColor" r="1" /></>)
     },
     {
         names: [
-            "warning_hex"
+            "warning hex"
         ],
         code: (<><path d="m14.517 3.5 4.983 5v6l-4.983 5h-6.017l-5-5v-6l5-5z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m11.5 12.5v-5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><circle cx="11.5" cy="15.5" fill="currentColor" r="1" /></>)
     },
     {
         names: [
-            "warning_triangle"
+            "warning triangle"
         ],
         code: (<> <path d="m9.5.5 9 16h-18z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><path d="m9.5 10.5v-5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" /><circle cx="9.5" cy="13.5" fill="currentColor" r="1" /></>)
     },
@@ -2464,7 +2464,7 @@ export const iconsdb = [
         names: [
             "width"
         ],
-        code: (<><path d="m14.279 13.701 4-4-4-4.015" /><path d="m4.279 13.701-4-4 4-4.015" /><path d="m15.636 3.322-12.728 12.728"/></>)
+        code: (<><path d="m14.279 13.701 4-4-4-4.015" /><path d="m4.279 13.701-4-4 4-4.015" /><path d="m15.636 3.322-12.728 12.728" /></>)
     },
     {
         names: [
@@ -2474,13 +2474,13 @@ export const iconsdb = [
     },
     {
         names: [
-            "wifi_error"
+            "wifi error"
         ],
         code: (<><path d="m2.72727273 7.03333352c.83153145-.67721428 1.77549265-1.15192805 2.76464632-1.42414131m4.05036413-.00556707c.99655252.27128439 1.94775872.74785385 2.78498982 1.42970838" /><path d="m7.5 8.5.027-8" /><path d="m.28636364 4.66666685c1.5285413-1.31742426 3.34019897-2.14638559 5.22503093-2.48688401m4.08697814.02039968c1.84534719.35249472 3.61641569 1.17465617 5.11526399 2.46648433m-9.57954579 4.73999982c.16101236-.11184953.32823746-.21100517.50026542-.29746717m3.70520939-.01635045c.18361827.09024549.36190455.19485144.53316189.31381785" /><circle cx="7.5" cy="11.5" fill="currentColor" r="1" /></>)
     },
     {
         names: [
-            "wifi_none"
+            "wifi none"
         ],
         code: (<><path d="m2.72727273 7.03333352c1.02437795-.83427197 2.21938157-1.36122508 3.4593052-1.58085933m2.49530185-.03060587c1.30622661.19837518 2.56985592.73553025 3.64539322 1.6114652m-12.04090936-2.36666667c1.00768121-.86850363 2.13840543-1.52472018 3.3320224-1.96864965m2.08967936-.55194893c3.14127124-.50961507 6.4645995.33058446 9.0055713 2.52059858" /><path d="m1 0 13 13.071" /><path d="m5.13409091 9.4066669c1.41874807-.9855538 3.31988897-.9855538 4.7386367 0" /><circle cx="7.5" cy="11.5" fill="currentColor" r="1" /></>)
     },
@@ -2492,31 +2492,31 @@ export const iconsdb = [
     },
     {
         names: [
-            "window_collapse_left"
+            "window collapse left"
         ],
         code: (<><path d="m.5 12.5v-10c0-1.1045695.8954305-2 2-2h10c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2z" /><path d="m2.5 12.5v-10c0-1.1045695.8954305-2 2-2h-2c-1 0-2 .8954305-2 2v10c0 1.1045695 1 2 2 2h2c-1.1045695 0-2-.8954305-2-2z" fill="currentColor" /><path d="m7.5 10.5-3-3 3-3" /><path d="m12.5 7.5h-8" /></>)
     },
     {
         names: [
-            "window_collapse_right"
+            "window collapse right"
         ],
         code: (<><path d="m.5 12.5v-10c0-1.1045695.8954305-2 2-2h10c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2z" /><path d="m12.5 12.5v-10c0-1.1045695-.8954305-2-2-2h2c1 0 2 .8954305 2 2v10c0 1.1045695-1 2-2 2h-2c1.1045695 0 2-.8954305 2-2z" fill="currentColor" /><path d="m7.5 10.5 3-3-3-3" /><path d="m10.5 7.5h-8" /></>)
     },
     {
         names: [
-            "window_content"
+            "window content"
         ],
         code: (<><path d="m2.5.5h10c1.1045695 0 2 .8954305 2 2v10c0 1.1045695-.8954305 2-2 2h-10c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2z" /><path d="m2.5 2.5h10c1.1045695 0 2 .8954305 2 2v-2c0-1-.8954305-2-2-2h-10c-1.1045695 0-2 1-2 2v2c0-1.1045695.8954305-2 2-2z" fill="currentColor" /><path d="m4.498 7.5h1" /><path d="m4.498 5.5h3.997" /><path d="m4.498 9.5h5.997" /><path d="m4.498 11.5h3.997" /></>)
     },
     {
         names: [
-            "wrap_back"
+            "wrap back"
         ],
         code: (<><path d="m1.378 1.376 4.243.003v4.242" /><path d="m5.5 9.49998326h5c2 .00089417 3-.99910025 3-2.99998326s-1-3.00088859-3-3.00001674h-10" /></>)
     },
     {
         names: [
-            "wrap_forward"
+            "wrap forward"
         ],
         code: (<><path d="m8.378 1.376 4.243.003v4.242" /><path d="m5.5 9.49996362h5c2 .00090726 3-.99908061 3-2.99996362s-1-3.00089514-3-3.00003638h-10" /></>)
     },
@@ -2528,25 +2528,25 @@ export const iconsdb = [
     },
     {
         names: [
-            "zoom_cancel"
+            "zoom cancel"
         ],
-        code: (<><circle cx="5.5" cy="5.5" r="5" /><path d="M8.32842712 5.5L2.67157288 5.5 8.32842712 5.5zM5.5 8.32842712L5.5 2.67157288 5.5 8.32842712z"/><line x1="14.5" x2="9.076" y1="14.5" y2="9.076" /></>)
+        code: (<><circle cx="5.5" cy="5.5" r="5" /><path d="M8.32842712 5.5L2.67157288 5.5 8.32842712 5.5zM5.5 8.32842712L5.5 2.67157288 5.5 8.32842712z" /><line x1="14.5" x2="9.076" y1="14.5" y2="9.076" /></>)
     },
     {
         names: [
-            "zoom_in"
+            "zoom in"
         ],
         code: (<><circle cx="5.5" cy="5.5" r="5" /><path d="m7.5 5.5h-4zm-2 2v-4z" /><path d="m14.5 14.5-5.367-5.367" /></>)
     },
     {
         names: [
-            "zoom_out"
+            "zoom out"
         ],
         code: (<><circle cx="5.5" cy="5.5" r="5" /><path d="m7.5 5.5h-4z" /><path d="m14.571 14.5-5.45-5.381" /></>)
     },
     {
         names: [
-            "zoom_reset"
+            "zoom reset"
         ],
         code: (<><path d="m.5 7.5c0 2.7614237 2.23857625 5 5 5 2.76142375 0 5-2.2385763 5-5 0-2.76142375-2.23857625-5-5-5-1.60217594 0-3.02834512.75357449-3.94340319 1.92561913" /><path d="m1.5.5v4h4" /><path d="m14.5 16.5-5.379-5.379" /></>)
     }

@@ -31,13 +31,12 @@ export const Hero = () => {
 
             <div className='w-full text-center md:text-start md:w-3/4'>
                 <p className=' text-pretty text-slate-800 text-6xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold'>
-                    <span className='text-teal-500'>Style </span><br />
+                    <span className='text-[#00e692]'>Style </span><br />
                     <span className='text-black-500'> Elements</span><br />
                     <span className='text-purple-900'>Hassle-</span>
                     <span className='text-purple-900'>Free</span>
                 </p>
             </div>
-
 
         </div>
     )

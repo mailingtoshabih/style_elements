@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import ReactDOMServer from 'react-dom/server';
+import { Adjust } from './Adjust';
 
 
 
@@ -194,8 +195,7 @@ export const Mobileeditor = ({ editIcon, closeEditor }) => {
 
 
                 {/* editor---------------------------------------------------------- */}
-
-                <div className=' text-gray-800 w-full rounded-xl select-none border p-1'>
+                <div className=' text-gray-800 w-full rounded-xl select-none border p-1 h-[450px] overflow-scroll no-scrollbar'>
 
                     <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg items-center'>
                         <p className='select-none'>Color</p>
@@ -205,6 +205,9 @@ export const Mobileeditor = ({ editIcon, closeEditor }) => {
                             onChange={(e) => setColor(e.target.value)}
                             name="" id="" value={color} />
                     </div>
+
+
+
 
                     <div className='w-full mb-1 flex justify-between relative p-1 rounded-lg items-center'>
                         <p className='select-none'>Background</p>
@@ -312,24 +315,33 @@ export const Mobileeditor = ({ editIcon, closeEditor }) => {
                     </div>
 
 
-                    <div onClick={(e) => closeEditor(e)}
-                        className="text-white text-lg font-semibold mt-1 p-1 w-full flex justify-center items-center rounded-xl bg-red-400 hover:bg-red-300 cursor-pointer  duration-500">
-
-
-                        <svg width='40' height='40' stroke='#ffffff' strokeWidth='1.8000000000000003' strokeLinecap='round' strokeLinejoin='round' transform='' strokeOpacity='0.7000000000000001' viewBox='-4.799999999999999 2.1 24 24' xmlns="http://www.w3.org/2000/svg">
-                            <g fill='none' fillRule="evenodd" transform="translate(3 3)">
-                                <path d="m7.5 7.5 6 6"></path><path d="m13.5 7.5-6 6"></path>
-                            </g>
-                        </svg>
-                        &nbsp;
-                        Close Editor
-                    </div>
-
+                    {/* <Adjust iconname={getName(editIcon?.icon?.names[0])} */}
+                        {/* // svgPreview={preview}
+                        // xaxis={xaxis}
+                        // yaxis={yaxis}
+                        // setxaxis={setxaxis}
+                        // setyaxis={setyaxis}
+                    // icon={iconbg}
+                    // setIconBg={setIconBg} */}
+                    {/* // iconColor={iconColor} */}
+                    {/* // setIconColor={setIconColor}
+                    // iconRadius={iconRadius}
+                    // setIconRadius={setIconRadius} */}
+                    {/* /> */}
 
                 </div>
 
-            </div>
 
+
+
+
+
+                <div onClick={(e) => closeEditor(e)}
+                    className='absolute top-1 left-1' style={{ backgroundColor: "#ff4242", borderRadius: '24%', width: "fit-content" }}>
+                    <svg style={{ color: '#f7f7f7' }} width='44' height='44' stroke='#f7f7f7' strokeWidth='1.3' strokeLinecap='round' strokeLinejoin='round' strokeOpacity='1' viewBox={'0 0 15 15'} xmlns="http://www.w3.org/2000/svg"><g fill='none' fillRule="evenodd" transform='translate(-2.9999999999999996 -2.9999999999999996)'><path d="m7.5 7.5 6 6"></path><path d="m13.5 7.5-6 6"></path></g></svg>
+                </div>
+
+            </div>
         </>
     )
 }

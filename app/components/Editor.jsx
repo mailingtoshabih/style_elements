@@ -17,23 +17,23 @@ function getName(inputString) {
 
 export const Editor = ({ editIcon, closeEditor }) => {
 
-    const [iconsize, setIconSize] = useState(100);                                 // width and height of canvas
-    const [svgsize, setSvgsize] = useState(24);                                 // width and height of canvas
+    const [yaxis, setyaxis] = useState(3);                                 // tranform translate
     const [xaxis, setxaxis] = useState(3);                                 // tranform translate
-    const [yaxis, setyaxis] = useState(3);                               // tranform translate
-    const [iconbg, setIconBg] = useState(false);                      // if true, add icon bg  
-    const [background, setBackground] = useState('#ffffff');
-    const [preview, setPreview] = useState(null);                          //preview icon's data fetching state 
+    const [fill, setFill] = useState('none');                              // color inside svg
+    const [svgsize, setSvgsize] = useState(24);                            // width and height of canvas
+    const [iconbg, setIconBg] = useState(false);                           // if true, add icon bg  
+    const [preview, setPreview] = useState(null);                          // preview icon's data fetching state 
     const [color, setColor] = useState('#475569');                         // stroke color
+    const [iconsize, setIconSize] = useState(100);                         // width and height of canvas
     const [linecap, setLinecap] = useState("round");
-    const [iconRadius, setIconRadius] = useState(20);                       // borderradius of icon
+    const [iconRadius, setIconRadius] = useState(20);                      // borderradius of icon
     const [linejoin, setLinejoin] = useState('round');
     const [lineOpacity, setLineOpacity] = useState(1);
     const [strokeWidth, setStrokeWidth] = useState(1.3);
     const [iconColor, setIconColor] = useState('#efefef');                  // bg color of entire icon
-    const [fill, setFill] = useState('none');                              // color inside svg
     const [jsxprompt, setJsxPrompt] = useState("COPY JSX");                 // copy jsx btn text 
     const [svgprompt, setSvgPrompt] = useState("COPY SVG");                 // copy svg btn text
+    const [background, setBackground] = useState('#ffffff');
 
 
 
@@ -89,9 +89,10 @@ export const Editor = ({ editIcon, closeEditor }) => {
         width: "fit-content"
     }
 
+
     const copyJsx = (e) => {
         const jsxCodeWithIcon = `
-            <div style={{backgroundColor: "${iconColor}", borderRadius: '${iconRadius}%', width: "fit-content" }}>
+            <div style={{backgroundColor: "${iconColor}", borderRadius: '${iconRadius}%', width: "fit-content", height: "fit-content" }}>
                 <svg style={{ color: '${color}' }} width='${iconsize}' height='${iconsize}' stroke='${color}' strokeWidth='${strokeWidth}' strokeLinecap='${linecap}' strokeLinejoin='${linejoin}'  strokeOpacity='${lineOpacity}' viewBox={'0 0 ${svgsize} ${svgsize}'}  xmlns="http://www.w3.org/2000/svg"><g fill='${fill}' fillRule="evenodd" transform='translate(${xaxis} ${yaxis})'>${ReactDOMServer.renderToStaticMarkup(editIcon?.icon?.code)}</g></svg>
             </div>`
 
@@ -104,6 +105,7 @@ export const Editor = ({ editIcon, closeEditor }) => {
         navigator.clipboard.writeText(iconbg ? jsxCodeWithIcon : jsxCodeWithoutIcon);
         setJsxPrompt("COPIED");
     }
+
 
     const copySvg = (e) => {
         const svgCodeWithIcon = `
@@ -122,10 +124,6 @@ export const Editor = ({ editIcon, closeEditor }) => {
     }
 
 
-
-
-
-
     return (
         <div className='relative'>
 
@@ -137,7 +135,6 @@ export const Editor = ({ editIcon, closeEditor }) => {
 
                 {/* viewer */}
                 <div className='w-1/2 relative'>
-
                     {/* canvas */}
                     <div className={`p-5 relative  w-full h-1/2 grid place-items-center grid-cols-1 rounded-lg`}
                         style={{ backgroundColor: background }}>
