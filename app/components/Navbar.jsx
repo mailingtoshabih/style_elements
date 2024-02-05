@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Navbar = () => {
     return (
-        <div className='flex  items-center border-b-2 bg-gradient-to-r from-indigo-100 via-violet-100 to-purple-100'>
+        <div className='flex items-center  bg-yellow-200'>
             {/* Logo */}
             <svg className='ml-5 rounded-2xl' width="50" height="50" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="300" height="300" rx="80" fill="#070404" />
@@ -26,8 +26,8 @@ export const Navbar = () => {
                 </defs>
             </svg>
 
-            <p className='p-5 font text-2xl sm:text-3xl text-slate-700'>
-                design<span className='text-rose-500'>Elements</span>
+            <p className='p-5 font text-2xl sm:text-3xl text-black'>
+                design<span className='text-[#FF4500]'>Elements</span>
             </p>
         </div>
     )
