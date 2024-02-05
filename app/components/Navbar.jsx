@@ -6,9 +6,9 @@ export const Navbar = () => {
             {/* Logo */}
             <svg className='ml-5 rounded-2xl' width="50" height="50" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="300" height="300" rx="80" fill="#070404" />
-                <rect x="125" y="21" width="50" height="260" rx="22" fill="#FF5252" />
-                <rect x="20.5473" y="176.843" width="50" height="260" rx="22" transform="rotate(-90.6272 20.5473 176.843)" fill="#FF5252" />
-                <rect x="262.497" y="225.522" width="50" height="266" rx="22" transform="rotate(134.223 262.497 225.522)" fill="#8E8CFE" />
+                <rect x="125" y="21" width="50" height="260" rx="22" fill="#FF4500" />
+                <rect x="20.5473" y="176.843" width="50" height="260" rx="22" transform="rotate(-90.6272 20.5473 176.843)" fill="#FF4500" />
+                <rect x="262.497" y="225.522" width="50" height="266" rx="22" transform="rotate(134.223 262.497 225.522)" fill="black" />
                 <g filter="url(#filter0_d_0_1)">
                     <rect x="234.533" y="41" width="50" height="273.451" rx="22" transform="rotate(47.7871 234.533 41)" fill="#8CFE97" />
                 </g>
