@@ -6,7 +6,6 @@ export const Adjust = ({ iconname, svgPreview, setxaxis, setyaxis, xaxis, yaxis,
 
     // console.log(icon)
     const [isChecked, setIsChecked] = useState(false);
-
     const handleCheckboxChange = () => {
         setIsChecked(!isChecked);
         setIconBg(!isChecked);
@@ -14,11 +13,11 @@ export const Adjust = ({ iconname, svgPreview, setxaxis, setyaxis, xaxis, yaxis,
 
 
     return (
-        <div className='border rounded-xl p-1'>
+        <div className='border rounded-xl p-1 w-full'>
 
             {/* preview */}
             <Preview svgPreview={svgPreview} iconname={iconname} />
-            
+
 
 
 

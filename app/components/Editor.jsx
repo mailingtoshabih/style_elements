@@ -36,7 +36,7 @@ export const Editor = ({ editIcon, closeEditor }) => {
     const [background, setBackground] = useState('#ffffff');
 
 
-   
+
 
 
     // console.log(iconColor)
@@ -131,14 +131,14 @@ export const Editor = ({ editIcon, closeEditor }) => {
 
             <div
                 onClick={(e) => e.stopPropagation()}
-                className='relative border p-5 gap-5 w-full md:w-[600px]  flex mx-auto bg-white rounded-xl md:border border-gray-300 '>
+                className='relative border p-2 md:p-5 gap-5 w-full h-fit sm:w-[600px] flex mx-auto bg-white rounded-xl md:border border-gray-300 '>
 
 
 
                 {/* viewer */}
-                <div className='w-1/2 relative'>
+                <div className='w-full h-[590px] relative'>
                     {/* canvas */}
-                    <div className={`p-5 relative  w-full h-1/2 grid place-items-center grid-cols-1 rounded-lg`}
+                    <div className={`p-5 relative  w-full h-1/3 md:h-1/2 grid place-items-center grid-cols-1 rounded-lg`}
                         style={{ backgroundColor: background }}>
 
                         <div style={iconbg ? iconBgCode : {}}>
@@ -158,8 +158,8 @@ export const Editor = ({ editIcon, closeEditor }) => {
                                 <g
                                     fill={fill}
                                     fillRule="evenodd"
-                                    transform={`translate(${xaxis} ${yaxis})`}>        
-                                    
+                                    transform={`translate(${xaxis} ${yaxis})`}>
+                                    {/* some calculation needed here */}
                                     {editIcon?.icon?.code}
                                 </g>
                             </svg>
@@ -168,7 +168,7 @@ export const Editor = ({ editIcon, closeEditor }) => {
 
 
 
-                    <div className='absolute bottom-0  w-full select-none'>
+                    <div className='hidden md:flex items-end h-1/2 w-full select-none '>
                         {/* left svg editor */}
                         <Adjust iconname={getName(editIcon?.icon?.names[0])}
                             svgPreview={preview}
@@ -184,12 +184,53 @@ export const Editor = ({ editIcon, closeEditor }) => {
                             setIconRadius={setIconRadius}
                         />
                     </div>
+
+
+                    {/* mobile editor */}
+
+                    <div className='md:hidden h-2/3 overflow-auto no-scrollbar text-gray-800 w-full rounded-xl select-none p-1'>
+                        <Adjust iconname={getName(editIcon?.icon?.names[0])}
+                            svgPreview={preview}
+                            xaxis={xaxis}
+                            yaxis={yaxis}
+                            setxaxis={setxaxis}
+                            setyaxis={setyaxis}
+                            icon={iconbg}
+                            setIconBg={setIconBg}
+                            iconColor={iconColor}
+                            setIconColor={setIconColor}
+                            iconRadius={iconRadius}
+                            setIconRadius={setIconRadius}
+                        />
+                        <Panel
+                            color={color}
+                            setColor={setColor}
+                            background={background}
+                            setBackground={setBackground}
+                            fill={fill}
+                            setFill={setFill}
+                            iconsize={iconsize}
+                            setIconsize={setIconSize}
+                            svgsize={svgsize}
+                            setSvgsize={setSvgsize}
+                            strokeWidth={strokeWidth}
+                            setStrokeWidth={setStrokeWidth}
+                            lineOpacity={lineOpacity}
+                            setLineOpacity={setLineOpacity}
+                            setLinecap={setLinecap}
+                            setLinejoin={setLinejoin}
+                            jsxprompt={jsxprompt}
+                            svgprompt={svgprompt}
+                            copyJsx={copyJsx}
+                            copySvg={copySvg} />
+                    </div>
+
                 </div>
 
 
 
                 {/* right svg editor */}
-                <div className='text-gray-800 w-1/2 h-1/2 rounded-xl select-none border p-1'>
+                <div className='hidden md:flex text-gray-800 w-1/2 rounded-xl select-none border p-1'>
                     <Panel
                         color={color}
                         setColor={setColor}
@@ -212,13 +253,14 @@ export const Editor = ({ editIcon, closeEditor }) => {
                         copyJsx={copyJsx}
                         copySvg={copySvg} />
                 </div>
+
             </div>
 
             {/* close button */}
 
             <div onClick={(e) => closeEditor(e)}
                 className='absolute top-1 left-1' style={{ backgroundColor: "#ff4242", borderRadius: '24%', width: "fit-content" }}>
-                <svg style={{ color: '#f7f7f7' }} width='44' height='44' stroke='#f7f7f7' strokeWidth='1.3' strokeLinecap='round' strokeLinejoin='round' strokeOpacity='1' viewBox={'0 0 15 15'} xmlns="http://www.w3.org/2000/svg"><g fill='none' fillRule="evenodd" transform='translate(-2.9999999999999996 -2.9999999999999996)'><path d="m7.5 7.5 6 6"></path><path d="m13.5 7.5-6 6"></path></g></svg>
+                <svg style={{ color: '#f7f7f7' }} width='35' height='35' stroke='#f7f7f7' strokeWidth='1.3' strokeLinecap='round' strokeLinejoin='round' strokeOpacity='1' viewBox={'0 0 15 15'} xmlns="http://www.w3.org/2000/svg"><g fill='none' fillRule="evenodd" transform='translate(-2.9999999999999996 -2.9999999999999996)'><path d="m7.5 7.5 6 6"></path><path d="m13.5 7.5-6 6"></path></g></svg>
             </div>
 
         </div>

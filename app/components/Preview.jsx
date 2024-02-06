@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Preview = ({ iconname, svgPreview }) => {
     return (
-        <div className=" w-full text-gray-600 font-semibold mb-3 flex justify-between items-center rounded-lg duration-500 capitalize">
+        <div className="w-full text-gray-600 text-lg font-semibold mb-3 flex justify-between items-center rounded-lg duration-500 capitalize">
 
             <div className='p-2 gap-1 flex justify-center items-center w-full bg-yellow-200 rounded-lg'>
                 {svgPreview}&nbsp;
