@@ -13,7 +13,7 @@ export const Adjust = ({ iconname, svgPreview, setxaxis, setyaxis, xaxis, yaxis,
 
 
     return (
-        <div className='border rounded-xl p-1 w-full'>
+        <div className='mt-2 border rounded-xl p-1 w-full'>
 
             {/* preview */}
             <Preview svgPreview={svgPreview} iconname={iconname} />

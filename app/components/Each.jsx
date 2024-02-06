@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 // import svg from "../assets/svgicons/airplay.svg"
 import { Editor } from './Editor';
-import { Mobileeditor } from './Mobileeditor';
 
 
 export const Each = ({ icon }) => {
@@ -40,14 +39,11 @@ export const Each = ({ icon }) => {
 
             {/* editor */}
             {editIcon &&
-                <div>
+                <>
                     <div className='flex z-10 overflow-none fixed h-screen top-0 bottom-0 left-0 right-0 w-full items-center justify-center backdrop-blur-[16px] shadow-2xl'>
-                        <Editor editIcon={editIcon} closeEditor={closeEditor}/>
+                        <Editor editIcon={editIcon} closeEditor={closeEditor} />
                     </div>
-                    <div onClick={closeEditor} className='p-5  absolute top-0 overflow-none left-0 h-full overflow-none z-10 right-0 hidden  w-full justify-center backdrop-blur-sm'>
-                        <Mobileeditor closeEditor={closeEditor} editIcon={editIcon} />
-                    </div>
-                </div>
+                </>
             }
 
 
