@@ -32,7 +32,7 @@ export const Editor = ({ editIcon, closeEditor }) => {
     const [strokeWidth, setStrokeWidth] = useState(1.3);
     const [iconColor, setIconColor] = useState('#efefef');                  // bg color of entire icon
     const [jsxprompt, setJsxPrompt] = useState("COPY JSX");                 // copy jsx btn text 
-    const [svgprompt, setSvgPrompt] = useState("COPY SVG");                 // copy svg btn text
+    const [svgprompt, setSvgPrompt] = useState("COPY SVG");                 // copy svg btn text`
     const [background, setBackground] = useState('#ffffff');
 
 
@@ -137,6 +137,7 @@ export const Editor = ({ editIcon, closeEditor }) => {
 
                 {/* viewer */}
                 <div className='w-full h-[590px] relative'>
+                    
                     {/* canvas */}
                     <div className={`p-5 relative  w-full h-1/3 md:h-1/2 grid place-items-center grid-cols-1 rounded-lg`}
                         style={{ backgroundColor: background }}>
@@ -257,7 +258,6 @@ export const Editor = ({ editIcon, closeEditor }) => {
             </div>
 
             {/* close button */}
-
             <div onClick={(e) => closeEditor(e)}
                 className='absolute top-1 left-1' style={{ backgroundColor: "#ff4242", borderRadius: '24%', width: "fit-content" }}>
                 <svg style={{ color: '#f7f7f7' }} width='35' height='35' stroke='#f7f7f7' strokeWidth='1.3' strokeLinecap='round' strokeLinejoin='round' strokeOpacity='1' viewBox={'0 0 15 15'} xmlns="http://www.w3.org/2000/svg"><g fill='none' fillRule="evenodd" transform='translate(-2.9999999999999996 -2.9999999999999996)'><path d="m7.5 7.5 6 6"></path><path d="m13.5 7.5-6 6"></path></g></svg>

@@ -31,7 +31,9 @@ const Homepage = () => {
 
       <div>
         <div className='z-10 p-5 sticky top-0 backdrop-blur-xl'>
-          <input className='px-5 text-xl w-full h-14 md:h-20 rounded-xl outline-none text-black border-none font-semibold bg-yellow-100 placeholder:text-gray-800'
+          <input className='px-5 text-xl w-full h-14 md:h-20 
+          rounded-xl outline-none text-black border-none 
+          font-semibold bg-yellow-100 placeholder:text-gray-800'
             onChange={(e) => setSearch(e.target.value)}
             type="text"
             placeholder='Eg: Phone' />

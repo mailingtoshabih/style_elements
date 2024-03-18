@@ -23,8 +23,8 @@ export const Adjust = ({ iconname, svgPreview, setxaxis, setyaxis, xaxis, yaxis,
 
 
             {/* adjust */}
-            <div className='w-full flex justify-between relative p-1 rounded-lg items-center hover:bg-slate-200'>
-                <div className='select-none'>Center</div>
+            <div className='w-full text-slate-800 flex justify-between relative p-1 rounded-lg items-center hover:bg-slate-200'>
+                <div className='select-none '>Center</div>
                 <div className='flex justify-center gap-1'>
                     <svg onClick={() => setyaxis(yaxis - 0.4)} className="w-6 h-6 p-1 bg-gray-100 rounded" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
@@ -44,7 +44,7 @@ export const Adjust = ({ iconname, svgPreview, setxaxis, setyaxis, xaxis, yaxis,
 
             {
                 isChecked &&
-                <>
+                <div className='text-slate-800'>
                     <div className='mt-2 w-full flex justify-between relative p-1 rounded-lg items-center hover:bg-slate-200'>
                         <div className='select-none'>Icon Color</div>
                         <input
@@ -80,12 +80,12 @@ export const Adjust = ({ iconname, svgPreview, setxaxis, setyaxis, xaxis, yaxis,
                             </svg>
                         </div>
                     </div> */}
-                </>
+                </div>
             }
 
 
             <div className='mt-2 w-full flex justify-between relative p-1 rounded-lg items-center'>
-                <div className='select-none'>Make CSS Icon</div>
+                <div className='select-none text-slate-800'>Make CSS Icon</div>
                 <input
                     className='outline-none'
                     type="checkbox"
